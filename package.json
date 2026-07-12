@@ -1,0 +1,16 @@
+{
+  "name": "basketball-stats-app",
+  "version": "1.0.0",
+  "description": "Basketball stats comparison app with Puppeteer scraping from be-basketball.com",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "scrape": "node scraper.js --standalone",
+    "scrape:rapm": "node scrape_rapm_raw.js && node map_rapm.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "puppeteer": "^23.0.0",
+    "cors": "^2.8.5"
+  }
+}

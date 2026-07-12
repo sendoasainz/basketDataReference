@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="BasketScout Pro — Plataforma avanzada de comparación de estadísticas de baloncesto. Encuentra jugadores similares por nombre o estadísticas." />
+  <title>BasketScout Pro — Comparador Avanzado de Estadísticas de Baloncesto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ========== HEADER ========== -->
+  <header id="app-header">
+    <div class="header-inner">
+      <div class="header-left">
+        <h1 class="logo" id="logo">
+          <span class="logo-icon">🏀</span>
+          <span class="logo-text">BasketScout <span class="logo-accent">Pro</span></span>
+        </h1>
+        <p class="subtitle">Comparador Avanzado de Estadísticas de Baloncesto</p>
+      </div>
+      <div class="header-right">
+        <div class="db-status" id="db-status">
+          <span class="status-dot"></span>
+          <span id="db-count">0</span> jugadores cargados
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== MAIN ========== -->
+  <main id="app-main">
+    <!-- Tab Navigation -->
+    <nav class="tab-nav" id="tab-nav">
+      <button class="tab-btn active" data-tab="search-name" id="tab-btn-name">
+        <span class="tab-icon">🔍</span> Buscar por Jugador
+      </button>
+      <button class="tab-btn" data-tab="search-stats" id="tab-btn-stats">
+        <span class="tab-icon">📊</span> Buscar por Estadísticas
+      </button>
+      <button class="tab-btn" data-tab="data-mgmt" id="tab-btn-data">
+        <span class="tab-icon">⚙️</span> Gestión de Datos
+      </button>
+      <button class="tab-btn" data-tab="compare" id="tab-btn-compare">
+        <span class="tab-icon">⚖️</span> Comparar
+      </button>
+      <div class="tab-indicator" id="tab-indicator"></div>
+    </nav>
+
+    <!-- ===== TAB 1: Search by Name ===== -->
+    <section class="tab-content active" id="tab-search-name">
+      <div class="card search-card">
+        <h2 class="card-title">Buscar Jugador Similar</h2>
+        <p class="card-desc">Introduce el nombre de un jugador para encontrar perfiles estadísticos similares.</p>
+        <div class="search-row">
+          <div class="search-input-wrapper">
+            <span class="search-icon">🔍</span>
+            <input
+              type="text"
+              class="search-input"
+              id="player-search"
+              placeholder="Nombre del jugador…"
+              autocomplete="off"
+            />
+            <div class="autocomplete-dropdown" id="autocomplete-dropdown"></div>
+          </div>
+          <div class="deviation-input-wrapper">
+            <label for="deviation-name">Tolerancia</label>
+            <div class="number-input">
+              <button class="num-btn" id="dev-name-down">−</button>
+              <input type="number" class="input-field" id="deviation-name" value="1" min="0.1" step="0.1" />
+              <button class="num-btn" id="dev-name-up">+</button>
+            </div>
+          </div>
+          <button class="btn-primary" id="btn-find-similar">
+            <span>Buscar Similares</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TAB 2: Search by Stats ===== -->
+    <section class="tab-content" id="tab-search-stats">
+      <div class="card search-card">
+        <h2 class="card-title">Buscar por Estadísticas</h2>
+        <p class="card-desc">Rellena sólo las estadísticas que quieras comparar. Los campos vacíos se ignoran.</p>
+
+        <div class="stats-grid">
+          <div class="stat-input-group">
+            <label>PTS</label>
+            <input type="number" class="input-field stat-input" data-stat="pts" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>REB</label>
+            <input type="number" class="input-field stat-input" data-stat="reb" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>AST</label>
+            <input type="number" class="input-field stat-input" data-stat="ast" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>STL</label>
+            <input type="number" class="input-field stat-input" data-stat="stl" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>BLK</label>
+            <input type="number" class="input-field stat-input" data-stat="blk" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>TO</label>
+            <input type="number" class="input-field stat-input" data-stat="to" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>MIN</label>
+            <input type="number" class="input-field stat-input" data-stat="min" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>GP</label>
+            <input type="number" class="input-field stat-input" data-stat="gp" placeholder="—" step="1" />
+          </div>
+          <div class="stat-input-group">
+            <label>FG%</label>
+            <input type="number" class="input-field stat-input" data-stat="fgPct" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>3P%</label>
+            <input type="number" class="input-field stat-input" data-stat="tpPct" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>FT%</label>
+            <input type="number" class="input-field stat-input" data-stat="ftPct" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>EVAL/PIR</label>
+            <input type="number" class="input-field stat-input" data-stat="eval" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>TS%</label>
+            <input type="number" class="input-field stat-input" data-stat="tsPct" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>eFG%</label>
+            <input type="number" class="input-field stat-input" data-stat="efgPct" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>PIR</label>
+            <input type="number" class="input-field stat-input" data-stat="pir" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>PIE</label>
+            <input type="number" class="input-field stat-input" data-stat="pie" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>NET RTG</label>
+            <input type="number" class="input-field stat-input" data-stat="netRtg" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>USG%</label>
+            <input type="number" class="input-field stat-input" data-stat="usgPct" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>POSS.</label>
+            <input type="number" class="input-field stat-input" data-stat="poss" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>3PAr</label>
+            <input type="number" class="input-field stat-input" data-stat="tpAr" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>FTr</label>
+            <input type="number" class="input-field stat-input" data-stat="ftR" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>ORB%</label>
+            <input type="number" class="input-field stat-input" data-stat="orbPct" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>DRB%</label>
+            <input type="number" class="input-field stat-input" data-stat="drbPct" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>TRB%</label>
+            <input type="number" class="input-field stat-input" data-stat="trbPct" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>AST%</label>
+            <input type="number" class="input-field stat-input" data-stat="astPct" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>TO%</label>
+            <input type="number" class="input-field stat-input" data-stat="toPct" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>AST-TO RAT.</label>
+            <input type="number" class="input-field stat-input" data-stat="astToRatio" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>STL%</label>
+            <input type="number" class="input-field stat-input" data-stat="stlPct" placeholder="—" step="0.1" />
+          </div>
+          <div class="stat-input-group">
+            <label>BLK%</label>
+            <input type="number" class="input-field stat-input" data-stat="blkPct" placeholder="—" step="0.1" />
+          </div>
+        </div>
+
+        <div class="filters-row">
+          <div class="filter-group">
+            <label>Tolerancia</label>
+            <div class="number-input">
+              <button class="num-btn" id="dev-stats-down">−</button>
+              <input type="number" class="input-field" id="deviation-stats" value="1" min="0.1" step="0.1" />
+              <button class="num-btn" id="dev-stats-up">+</button>
+            </div>
+          </div>
+          <div class="filter-group">
+            <label>Posición</label>
+            <select class="input-field" id="filter-position">
+              <option value="">Todas</option>
+              <option value="Guard">Base / Escolta</option>
+              <option value="Forward">Alero / Ala-Pívot</option>
+              <option value="Center">Pívot</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label>Temporada</label>
+            <select class="input-field" id="filter-season">
+              <option value="">Todas</option>
+              <option value="2025-2026">2025-2026</option>
+              <option value="2024-2025">2024-2025</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="filter-group league-filter-group">
+          <label>Filtrar por Liga</label>
+          <div class="league-chips" id="league-chips-stats"></div>
+        </div>
+
+        <button class="btn-primary" id="btn-search-stats">
+          <span>🔎 Buscar</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ===== TAB 3: Data Management ===== -->
+    <section class="tab-content" id="tab-data-mgmt">
+      <div class="card">
+        <h2 class="card-title">Gestión de Datos</h2>
+        <p class="card-desc">Selecciona las ligas que deseas descargar y pulsa "Descargar".</p>
+
+        <div class="league-select-grid" id="league-select-grid"></div>
+
+        <div class="scrape-options" style="margin: 1.5rem 0 1rem 0; display: flex; align-items: center; gap: 1rem;">
+          <label for="scrape-season" style="font-weight: 600; color: var(--text-secondary);">Temporada a Descargar:</label>
+          <select id="scrape-season" class="input-field" style="width: auto; padding: 0.4rem 2rem 0.4rem 0.8rem; background-color: var(--bg-input);">
+            <option value="2025-2026" selected>2025-2026</option>
+            <option value="2024-2025">2024-2025</option>
+            <option value="2026-2027">2026-2027</option>
+          </select>
+        </div>
+
+        <div class="scrape-actions">
+          <button class="btn-primary" id="btn-scrape">
+            <span>⬇️ Descargar Ligas Seleccionadas</span>
+          </button>
+          <button class="btn-secondary" id="btn-select-all-leagues">Seleccionar Todas</button>
+          <button class="btn-secondary" id="btn-deselect-all-leagues">Deseleccionar Todas</button>
+        </div>
+
+        <!-- Scrape progress -->
+        <div class="scrape-progress-area" id="scrape-progress-area" style="display:none;">
+          <div class="progress-bar">
+            <div class="progress-fill" id="scrape-progress-fill"></div>
+          </div>
+          <p class="scrape-status-text" id="scrape-status-text">Preparando…</p>
+        </div>
+
+        <!-- Database summary -->
+        <div class="db-summary-section">
+          <h3>Resumen de la Base de Datos</h3>
+          <div id="db-summary-content" class="db-summary-grid"></div>
+          <div class="data-actions">
+            <button class="btn-secondary" id="btn-export-json">📥 Exportar JSON</button>
+            <button class="btn-secondary btn-danger" id="btn-clear-cache">🗑️ Limpiar Caché</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TAB 4: Compare Players ===== -->
+    <section class="tab-content" id="tab-compare">
+      <div class="card search-card">
+        <h2 class="card-title">Comparador de Jugadores</h2>
+        <p class="card-desc">Busca y añade hasta 4 jugadores para comparar sus estadísticas básicas y avanzadas frente a frente.</p>
+        
+        <div class="search-row">
+          <div class="search-input-wrapper" style="flex: 1;">
+            <span class="search-icon">🔍</span>
+            <input
+              type="text"
+              class="search-input"
+              id="compare-search"
+              placeholder="Buscar jugador para añadir a la comparativa…"
+              autocomplete="off"
+            />
+            <div class="autocomplete-dropdown" id="compare-autocomplete-dropdown"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Comparison Slots Grid -->
+      <div class="comparison-slots-grid" id="comparison-slots-grid">
+        <!-- Rendered via app.js -->
+      </div>
+
+      <!-- Comparison Results (Radar + Table) -->
+      <div class="comparison-results" id="comparison-results" style="display:none; margin-top:2rem;">
+        <div class="radar-chart-container">
+          <h2 class="section-title">Visualización Comparativa</h2>
+          <div class="radar-legend" id="compare-radar-legend"></div>
+          <div class="radar-comparison-layout">
+            <div class="radar-canvas-wrapper">
+              <canvas id="compare-radar-canvas" width="450" height="450"></canvas>
+              <div class="radar-tooltip" id="compare-radar-tooltip"></div>
+            </div>
+            <div class="comparison-table-wrapper" id="compare-table-container">
+              <!-- Side-by-side comparison table here -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== RESULTS PANEL (shared) ========== -->
+    <section class="results-panel" id="results-panel" style="display:none;">
+      <!-- Global Projection Control -->
+      <div class="projection-control-container">
+        <span class="projection-label">
+          🔮 Proyectar estadísticas en clave Liga Endesa (ACB)
+        </span>
+        <label class="switch-container">
+          <input type="checkbox" id="toggle-projection">
+          <span class="switch-slider"></span>
+        </label>
+      </div>
+
+      <!-- Target player card -->
+      <div class="target-player-section" id="target-player-section" style="display:none;">
+        <h2 class="section-title">Jugador Objetivo</h2>
+        <div class="player-card" id="target-player-card"></div>
+      </div>
+
+      <!-- Results table -->
+      <div class="results-table-section" id="results-table-section">
+        <div class="results-header">
+          <h2 class="section-title">Jugadores Similares</h2>
+          <span class="results-count" id="results-count"></span>
+        </div>
+        
+        <div class="results-filter-container" id="results-filter-container" style="display: none;">
+          <span class="filter-label">Filtrar por posición:</span>
+          <div class="filter-chips" id="position-filter-chips">
+            <button class="filter-chip" data-pos="Base">Base</button>
+            <button class="filter-chip" data-pos="Escolta">Escolta</button>
+            <button class="filter-chip" data-pos="Alero">Alero</button>
+            <button class="filter-chip" data-pos="Ala-Pívot">Ala-Pívot</button>
+            <button class="filter-chip" data-pos="Pívot">Pívot</button>
+          </div>
+        </div>
+        <div class="table-wrapper">
+          <table class="results-table" id="results-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Jugador</th>
+                <th>Equipo</th>
+                <th>Liga</th>
+                <th>Temp.</th>
+                <th>Pos.</th>
+                <th data-sort="gp" class="sortable">PJ</th>
+                <th data-sort="min" class="sortable">MIN</th>
+                <th data-sort="pts" class="sortable">PTS</th>
+                <th data-sort="reb" class="sortable">REB</th>
+                <th data-sort="oreb" class="sortable">OREB</th>
+                <th data-sort="dreb" class="sortable">DREB</th>
+                <th data-sort="ast" class="sortable">AST</th>
+                <th data-sort="stl" class="sortable">ROB</th>
+                <th data-sort="blk" class="sortable">TAP</th>
+                <th data-sort="to" class="sortable">PER</th>
+                <th data-sort="pf" class="sortable">FP</th>
+                <th data-sort="fgPct" class="sortable">TC%</th>
+                <th data-sort="tpPct" class="sortable">T3%</th>
+                <th data-sort="twoPPct" class="sortable">T2%</th>
+                <th data-sort="ftPct" class="sortable">TL%</th>
+                <th data-sort="eval" class="sortable">VAL</th>
+                <th data-sort="pir" class="sortable">PIR</th>
+                <th data-sort="pie" class="sortable">PIE</th>
+                <th data-sort="netRtg" class="sortable">NET RTG</th>
+                <th data-sort="offRapm" class="sortable">OFF RAPM</th>
+                <th data-sort="defRapm" class="sortable">DEF RAPM</th>
+                <th data-sort="trueNetRtg" class="sortable">NET RAPM</th>
+                <th data-sort="usgPct" class="sortable">USG%</th>
+                <th data-sort="poss" class="sortable">POSS.</th>
+                <th data-sort="tsPct" class="sortable">TS%</th>
+                <th data-sort="efgPct" class="sortable">eFG%</th>
+                <th data-sort="tpAr" class="sortable">3PAr</th>
+                <th data-sort="ftR" class="sortable">FTr</th>
+                <th data-sort="orbPct" class="sortable">ORB%</th>
+                <th data-sort="drbPct" class="sortable">DRB%</th>
+                <th data-sort="trbPct" class="sortable">TRB%</th>
+                <th data-sort="astPct" class="sortable">AST%</th>
+                <th data-sort="toPct" class="sortable">TO%</th>
+                <th data-sort="astToRatio" class="sortable">AST-TO RAT.</th>
+                <th data-sort="stlPct" class="sortable">STL%</th>
+                <th data-sort="blkPct" class="sortable">BLK%</th>
+                <th data-sort="similarity" class="sortable">Similitud</th>
+                <th style="text-align:center;">Comparar</th>
+              </tr>
+            </thead>
+            <tbody id="results-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Radar chart comparison -->
+      <div class="radar-chart-container" id="radar-chart-container" style="display:none;">
+        <h2 class="section-title">Comparación Visual y Avanzada</h2>
+        <div class="radar-legend" id="radar-legend"></div>
+        <div id="comparison-summary" class="comparison-summary-container" style="display:none;"></div>
+        <div class="radar-comparison-layout">
+          <div class="radar-canvas-wrapper">
+            <canvas id="radar-canvas" width="450" height="450"></canvas>
+            <div class="radar-tooltip" id="radar-tooltip"></div>
+          </div>
+          <div class="comparison-table-wrapper" id="comparison-table-container">
+            <!-- Side-by-side stats will be rendered here -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Loading overlay -->
+    <div class="loading-overlay" id="loading-overlay" style="display:none;">
+      <div class="loading-spinner"></div>
+      <p>Cargando…</p>
+    </div>
+
+    <!-- Matchups Modal -->
+    <div class="modal-overlay" id="matchups-modal" style="display:none;">
+      <div class="modal-content matchups-modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title">📈 Análisis de Rivales y Competitividad</h2>
+          <button class="modal-close" id="btn-close-matchups">&times;</button>
+        </div>
+        <div class="modal-body" id="matchups-modal-body">
+          <!-- Content dynamically rendered via app.js -->
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer id="app-footer">
+    <div class="footer-inner">
+      <p>Datos obtenidos de <strong>be-basketball.com</strong></p>
+      <p class="version">BasketScout Pro v1.0.0</p>
+    </div>
+  </footer>
+
+  <!-- Chart.js for radar charts -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
