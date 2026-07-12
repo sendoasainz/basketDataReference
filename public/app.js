@@ -972,7 +972,7 @@ async function renderLeagueAveragesChart(player, containerId) {
     container.style.display = 'block';
     
     // Fetch averages
-    const res = await fetch(\`/api/league-averages?league=\${encodeURIComponent(player.leagueSlug)}&season=\${encodeURIComponent(player.season)}\`);
+    const res = await fetch(`/api/league-averages?league=${encodeURIComponent(player.leagueSlug)}&season=${encodeURIComponent(player.season)}`);
     const data = await res.json();
     
     if (!data.success || !data.averages) {
@@ -1062,12 +1062,12 @@ function drawChartTornado(contentEl) {
 
   let html = '<div style="display: flex; flex-direction: column; gap: 0.8rem; padding: 0.5rem 0;">';
   
-  html += \`
+  html += `
     <div style="display: flex; justify-content: center; margin-bottom: 0.5rem; gap: 2rem; font-size: 0.8rem;">
       <span style="display: flex; align-items: center; gap: 0.3rem;"><span style="display: inline-block; width: 12px; height: 12px; background: #ef4444; border-radius: 2px;"></span> Peor que Media</span>
       <span style="display: flex; align-items: center; gap: 0.3rem;"><span style="display: inline-block; width: 12px; height: 12px; background: #10b981; border-radius: 2px;"></span> Mejor que Media</span>
     </div>
-  \`;
+  `;
 
   for (let i = 0; i < d.keys.length; i++) {
     const diff = d.diffs[i];
@@ -1082,10 +1082,10 @@ function drawChartTornado(contentEl) {
     const leftBarWidth = isPositive ? 0 : widthPct;
     const rightBarWidth = isPositive ? widthPct : 0;
     
-    const leftText = !isPositive ? \`\${d.playerValues[i].toFixed(1)} <span style="font-size:0.7rem; color:var(--text-muted)">vs \${d.avgValues[i].toFixed(1)}</span>\` : '';
-    const rightText = isPositive ? \`<span style="font-size:0.7rem; color:var(--text-muted)">\${d.avgValues[i].toFixed(1)} vs</span> \${d.playerValues[i].toFixed(1)}\` : '';
+    const leftText = !isPositive ? `\${d.playerValues[i].toFixed(1)} <span style="font-size:0.7rem; color:var(--text-muted)">vs \${d.avgValues[i].toFixed(1)}</span>` : '';
+    const rightText = isPositive ? `<span style="font-size:0.7rem; color:var(--text-muted)">\${d.avgValues[i].toFixed(1)} vs</span> \${d.playerValues[i].toFixed(1)}` : '';
 
-    html += \`
+    html += `
       <div style="display: flex; align-items: center; width: 100%; height: 24px; position: relative;">
         <!-- Left side (Negative) -->
         <div style="flex: 1; display: flex; justify-content: flex-end; align-items: center; padding-right: 0.5rem;">
@@ -1107,7 +1107,7 @@ function drawChartTornado(contentEl) {
         <!-- Center line -->
         <div style="position: absolute; left: 50%; top: 0; bottom: 0; width: 1px; background: var(--border); transform: translateX(-50%); z-index: 0;"></div>
       </div>
-    \`;
+    `;
   }
   
   html += '</div>';
@@ -1188,7 +1188,7 @@ function drawChartRadar(contentEl) {
                 const label = context.dataset.label || '';
                 const idx = context.dataIndex;
                 const actualValue = label === 'Media de Liga' ? d.avgValues[idx] : d.playerValues[idx];
-                return \`\${label}: \${actualValue.toFixed(1)}\`;
+                return `\${label}: \${actualValue.toFixed(1)}`;
               }
             }
           }
