@@ -382,7 +382,7 @@ function saveDatabase(players, season) {
  */
 async function scrapeLeagueTeams(slug) {
   const page = await browser.newPage();
-  const url = `${BASE_URL}/league/${slug}/players`;
+  const url = `${BASE_URL}/league/${slug}/teams`;
 
   try {
     console.log(`[Scraper] Navigating to league page: ${url}`);
@@ -422,9 +422,16 @@ async function scrapeLeagueTeams(slug) {
         const match = href.match(/\/team\/([a-z0-9-]+)/i);
         if (match) {
           const slug = match[1].toLowerCase();
-          const name = link.textContent.trim() || slug;
-          if (!teamMap.has(slug) && slug !== '') {
-            teamMap.set(slug, { name, slug });
+          const name = link.textContent.trim();
+          if (slug !== '' && name.length > 3) {
+            if (!teamMap.has(slug)) {
+              teamMap.set(slug, { name: name || slug, slug });
+            } else {
+              const existing = teamMap.get(slug);
+              if (name.length > existing.name.length) {
+                teamMap.set(slug, { name, slug });
+              }
+            }
           }
         }
       }
@@ -806,6 +813,24 @@ async function scrapePlayerStats(playerSlug, context = {}) {
 
     const careerData = [...mainPageCareer, ...(careerDataRaw || [])];
 
+    // Helper to check if a short string is a subsequence abbreviation of a full team name
+    const isTeamAbbreviation = (abbr, full) => {
+      if (!abbr || !full) return false;
+      const a = abbr.toLowerCase().trim();
+      const f = full.toLowerCase().trim();
+      if (f.includes(a) || a.includes(f)) return true;
+      if (a.length >= 2 && a.length <= 5) {
+        let pIdx = 0;
+        for (let i = 0; i < a.length; i++) {
+          pIdx = f.indexOf(a[i], pIdx);
+          if (pIdx === -1) return false;
+          pIdx++;
+        }
+        return true;
+      }
+      return false;
+    };
+
     // Deduplicate and filter seasons (keep 24-25, 25-26, 26-27 in normalized format)
     const playerSeasons = new Map();
     
@@ -832,9 +857,7 @@ async function scrapePlayerStats(playerSlug, context = {}) {
           
           // Fallback: If abbreviation matches the current player's team, assign it to the current context league
           if (!leagueInfo && player.team) {
-            const cTeamLower = career.team.toLowerCase().trim();
-            const pTeamLower = player.team.toLowerCase().trim();
-            if (pTeamLower.includes(cTeamLower) || cTeamLower.includes(pTeamLower)) {
+            if (isTeamAbbreviation(career.team, player.team)) {
               leagueInfo = { name: context.leagueName || player.league, slug: context.leagueSlug || player.leagueSlug };
             }
           }
@@ -855,8 +878,13 @@ async function scrapePlayerStats(playerSlug, context = {}) {
           continue;
         }
         
-        const recordTeam = career.team || player.team;
-        const recordTeamSlug = (recordTeam.toLowerCase() === player.team.toLowerCase()) ? player.teamSlug : '';
+        let recordTeam = career.team || player.team;
+        let recordTeamSlug = '';
+        
+        if (isTeamAbbreviation(recordTeam, player.team)) {
+          recordTeam = player.team;
+          recordTeamSlug = player.teamSlug;
+        }
         const rawStats = career.stats || primaryStats || {};
         
         const key = `${normSeason}_${recordLeagueSlug}`;
