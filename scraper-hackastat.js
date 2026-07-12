@@ -122,45 +122,160 @@ async function scrapeLeaguePlayers(leagueSlug, season = '2025-2026') {
     // Give extra time for all data to render
     await delay(3000);
 
-    // Try to show all rows (click "Show All" or select max entries)
-    try {
-      // Look for a "show all" or entries selector
-      const showAllSelectors = [
-        'select[name*="length"]',
-        '.dataTables_length select',
-        'select.form-control'
-      ];
-      for (const sel of showAllSelectors) {
-        const selectEl = await page.$(sel);
-        if (selectEl) {
-          // Select the maximum option (usually -1 or a very high number)
-          await page.evaluate(el => {
-            const options = el.querySelectorAll('option');
-            const lastOpt = options[options.length - 1];
-            if (lastOpt) {
-              el.value = lastOpt.value;
-              el.dispatchEvent(new Event('change', { bubbles: true }));
-            }
-          }, selectEl);
-          console.log('[HackAStat] Selected "Show All" in table pagination.');
-          await delay(3000); // Wait for table to re-render
-          break;
-        }
+    // Instead of trying to select 'Show All' from a broken datatable, 
+    // Hack a Stat uses a .page-jump select element for pagination.
+    let playersFound = 0;
+    const allPlayers = [];
+    
+    // Check total pages
+    const totalPages = await page.evaluate(() => {
+      const select = document.querySelector('select.page-jump');
+      if (select && select.options.length > 0) {
+        return select.options.length;
       }
-    } catch (e) {
-      console.log('[HackAStat] No pagination selector found, continuing with default view.');
-    }
+      return 1;
+    });
 
-        }
+    console.log(`[HackAStat] Found ${totalPages} pages for players.`);
+
+    for (let p = 1; p <= totalPages; p++) {
+      if (p > 1) {
+        // Change page
+        await page.evaluate((pageNum) => {
+          const select = document.querySelector('select.page-jump');
+          if (select) {
+            select.value = pageNum;
+            select.dispatchEvent(new Event('change', { bubbles: true }));
+          }
+        }, p);
+        console.log(`[HackAStat] Loading page ${p}...`);
+        await delay(3000); // Wait for the new page to load (network request)
+      }
+
+      // Extract player data from current page
+      const leagueName = LEAGUE_NAME_MAP[leagueId];
+      const pagePlayers = await page.evaluate((leagueName, leagueSlug, season) => {
+        const results = [];
+        const tables = document.querySelectorAll('table');
         
-        if (results.length > 0) break; // Found the main table
-      }
+        for (const table of tables) {
+          const headerRow = table.querySelector('thead tr');
+          if (!headerRow) continue;
+          
+          const headers = Array.from(headerRow.querySelectorAll('th'))
+            .map(th => th.textContent.trim().toLowerCase());
+          
+          // Check if this looks like a player stats table (must have player name and GP)
+          const hasPlayer = headers.some(h => h.includes('player') || h.includes('giocatore') || h.includes('jugador'));
+          const hasGP = headers.some(h => h === 'gp' || h === 'g' || h === 'pj');
+          if (!hasPlayer && !hasGP) continue;
+          
+          const rows = table.querySelectorAll('tbody tr');
+          for (const row of rows) {
+            const cells = Array.from(row.querySelectorAll('td'));
+            if (cells.length < 5) continue;
+            
+            const playerData = {
+              name: '',
+              team: '',
+              position: '',
+              stats: {}
+            };
+            
+            cells.forEach((cell, i) => {
+              if (i >= headers.length) return;
+              const h = headers[i].toLowerCase().trim();
+              const text = cell.textContent.trim();
+              
+              // Player name
+              if (h.includes('player') || h.includes('giocatore') || h.includes('jugador')) {
+                playerData.name = text;
+                // Try to get player_id from link
+                const link = cell.querySelector('a');
+                if (link) {
+                  const href = link.getAttribute('href') || '';
+                  const match = href.match(/player_id=(\d+)/);
+                  if (match) playerData.hackAStatId = parseInt(match[1]);
+                }
+              }
+              // Team
+              else if (h === 'team' || h === 'squadra' || h === 'equipo') {
+                playerData.team = text;
+              }
+              // Position
+              else if (h === 'pos' || h === 'position' || h === 'posizione' || h === 'ruolo') {
+                playerData.position = text;
+              }
+              // Stats
+              else {
+                let key = null;
+                if (h === 'gp' || h === 'g' || h === 'pj') key = 'gp';
+                else if (h === 'mpg' || h === 'min' || h === 'mp') key = 'min';
+                else if (h === 'pts' || h === 'ppg') key = 'pts';
+                else if (h === 'reb' || h === 'rpg' || h === 'trb') key = 'reb';
+                else if (h === 'oreb' || h === 'orb' || h === 'or') key = 'oreb';
+                else if (h === 'dreb' || h === 'drb' || h === 'dr') key = 'dreb';
+                else if (h === 'ast' || h === 'apg') key = 'ast';
+                else if (h === 'stl' || h === 'spg') key = 'stl';
+                else if (h === 'blk' || h === 'bpg') key = 'blk';
+                else if (h === 'tov' || h === 'to') key = 'to';
+                else if (h === 'pf') key = 'pf';
+                else if (h === 'fg%' || h === 'fgp' || h === 'fg') key = 'fgPct';
+                else if (h === '3p%' || h === '3pp' || h === '3fg%') key = 'tpPct';
+                else if (h === '2p%' || h === '2pp' || h === '2fg%') key = 'twoPPct';
+                else if (h === 'ft%' || h === 'ftp') key = 'ftPct';
+                else if (h === 'ts%' || h === 'ts') key = 'tsPct';
+                else if (h === 'efg%' || h === 'efg') key = 'efgPct';
+                else if (h === '3par' || h === '3pa rate') key = 'tpAr';
+                else if (h === 'ftr' || h === 'ft rate') key = 'ftR';
+                else if (h === 'orb%' || h === 'or%') key = 'orbPct';
+                else if (h === 'drb%' || h === 'dr%') key = 'drbPct';
+                else if (h === 'trb%' || h === 'reb%') key = 'trbPct';
+                else if (h === 'ast%') key = 'astPct';
+                else if (h === 'tov%' || h === 'to%') key = 'toPct';
+                else if (h === 'stl%') key = 'stlPct';
+                else if (h === 'blk%') key = 'blkPct';
+                else if (h === 'usg%' || h === 'usg') key = 'usgPct';
+                else if (h === 'per') key = 'per';
+                else if (h === 'ws' || h === 'win shares') key = 'ws';
+                else if (h === 'bpm' || h === 'box plus/minus') key = 'bpm';
+                else if (h === 'vorp') key = 'vorp';
+                else if (h === 'pir' || h === 'val') key = 'pir';
+                else if (h === 'eff' || h === 'eval') key = 'eval';
+  
+                if (key) {
+                  const val = parseFloat(text.replace('%', '').replace(',', '.'));
+                  if (!isNaN(val)) playerData.stats[key] = val;
+                }
+              }
+            });
+            
+            if (playerData.name && playerData.team) {
+              const baseSlug = playerData.name.toLowerCase()
+                .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+                .replace(/[^a-z0-9\s-]/g, '')
+                .trim().replace(/\s+/g, '-');
+                
+              playerData.slug = baseSlug;
+              playerData.league = leagueName;
+              playerData.leagueSlug = leagueSlug;
+              playerData.season = season;
+              results.push(playerData);
+            }
+          }
+        }
+        return results;
+      }, leagueName, leagueSlug, season);
       
-      return results;
-    }, leagueId, leagueSlug, season);
-
-    console.log(`[HackAStat] Extracted ${players.length} players from table.`);
-    progress.totalPlayers = players.length;
+      allPlayers.push(...pagePlayers);
+      playersFound += pagePlayers.length;
+    }
+    
+    console.log(`[HackAStat] Extracted ${playersFound} players across ${totalPages} pages.`);
+    progress.totalPlayers = playersFound;
+    
+    // We already have allPlayers, just assign it to players
+    const players = allPlayers;
 
     // Convert to our standard format
     const standardPlayers = players.map(p => {
