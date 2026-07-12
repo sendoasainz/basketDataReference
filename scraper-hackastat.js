@@ -21,22 +21,23 @@ let browser = null;
 // ─── Hack a Stat configuration ───────────────────────────────────────────────
 const HACKASTAT_BASE = 'https://hackastat.eu';
 
-// Map our internal league slugs to Hack a Stat league IDs
+// Map our slug to Hack a Stat league ID
 const LEAGUE_ID_MAP = {
   'euroleague': 1,
-  'eurocup': 2,
-  'liga-endesa': 3,
-  'lega-basket-serie-a': 4,
-  'basketball-champions-league': 5
+  'lega-basket-serie-a': 2,
+  'eurocup': 3,
+  'basketball-champions-league': 4,
+  'liga-endesa': 6
 };
 
-// Reverse map for naming
+// Map Hack a Stat league ID to standard league name
 const LEAGUE_NAME_MAP = {
   1: 'EuroLeague',
-  2: 'EuroCup',
-  3: 'Liga Endesa',
-  4: 'Lega Basket Serie A',
-  5: 'Basketball Champions League'
+  2: 'LBA',
+  3: 'EuroCup',
+  4: 'BCL',
+  5: 'Domestic Cup',
+  6: 'Liga Endesa'
 };
 
 const DATA_DIR = path.join(__dirname, 'data');
