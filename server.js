@@ -207,26 +207,15 @@ app.post('/api/scrape/league', async (req, res) => {
     const targetSeason = season || '2025-2026';
     console.log(`[Server] Starting scrape for league: ${slug} (${targetSeason})`);
 
-    // Run scraping asynchronously
-    if (scraperHackastat.isHackaStatLeague(slug)) {
-      console.log(`[Server] Using Hack a Stat scraper for ${slug}`);
-      scraperHackastat.scrapeFullLeague(slug, targetSeason)
-        .then(players => {
-          console.log(`[Server] Hack a Stat scrape complete: ${players.length} players scraped.`);
-        })
-        .catch(err => {
-          console.error(`[Server] Hack a Stat scrape failed:`, err.message);
-        });
-    } else {
-      console.log(`[Server] Using be-basketball scraper for ${slug}`);
-      scraper.scrapeFullLeague(slug, targetSeason)
-        .then(players => {
-          console.log(`[Server] League scrape complete: ${players.length} players scraped.`);
-        })
-        .catch(err => {
-          console.error(`[Server] League scrape failed:`, err.message);
-        });
-    }
+    // Run scraping asynchronously using be-basketball as the primary source
+    console.log(`[Server] Using be-basketball scraper for ${slug}`);
+    scraper.scrapeFullLeague(slug, targetSeason)
+      .then(players => {
+        console.log(`[Server] League scrape complete: ${players.length} players scraped.`);
+      })
+      .catch(err => {
+        console.error(`[Server] League scrape failed:`, err.message);
+      });
 
     // Respond immediately with the status
     res.json({
