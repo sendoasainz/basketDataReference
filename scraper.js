@@ -792,8 +792,20 @@ async function scrapePlayerStats(playerSlug, context = {}) {
     }
 
     // Try to get career stats
-    const careerData = await scrapeCareerStats(page, playerSlug);
+    const careerDataRaw = await scrapeCareerStats(page, playerSlug);
     
+    // The main page stats have a separate row for each league but might lack the season explicitly
+    const mainPageCareer = stats.map(s => {
+      return {
+        season: s.season || context.season || '2025-2026',
+        team: s.team || context.teamName || '',
+        competition: s.competition || '',
+        stats: s
+      };
+    });
+
+    const careerData = [...mainPageCareer, ...(careerDataRaw || [])];
+
     // Deduplicate and filter seasons (keep 24-25, 25-26, 26-27 in normalized format)
     const playerSeasons = new Map();
     
@@ -816,7 +828,17 @@ async function scrapePlayerStats(playerSlug, context = {}) {
             continue;
           }
         } else if (career.team) {
-          const leagueInfo = getLeagueForCareerTeam(career.team, player.league, player.leagueSlug);
+          let leagueInfo = getLeagueForCareerTeam(career.team, player.league, player.leagueSlug);
+          
+          // Fallback: If abbreviation matches the current player's team, assign it to the current context league
+          if (!leagueInfo && player.team) {
+            const cTeamLower = career.team.toLowerCase().trim();
+            const pTeamLower = player.team.toLowerCase().trim();
+            if (pTeamLower.includes(cTeamLower) || cTeamLower.includes(pTeamLower)) {
+              leagueInfo = { name: context.leagueName || player.league, slug: context.leagueSlug || player.leagueSlug };
+            }
+          }
+
           if (!leagueInfo) {
             // Cannot identify which league this team belongs to — discard to avoid cross-contamination
             continue;
