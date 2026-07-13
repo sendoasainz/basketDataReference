@@ -1,4 +1,9 @@
 {
+  "Doornekamp A.|ACB|2022-2023": {
+    "offRapm": "+3.6",
+    "defRapm": "+7.4",
+    "netRapm": "+11.0"
+  },
   "Tavares W.|Euroleague|2020-2021": {
     "offRapm": "+2.6",
     "defRapm": "+7.3",
@@ -49,6 +54,11 @@
     "defRapm": "+6.7",
     "netRapm": "+8.2"
   },
+  "Tavares W.|ACB|2022-2023": {
+    "offRapm": "+2.9",
+    "defRapm": "+5.2",
+    "netRapm": "+8.1"
+  },
   "Voigtmann J.|LBA|2023-2024": {
     "offRapm": "+3.3",
     "defRapm": "+4.8",
@@ -89,6 +99,11 @@
     "defRapm": "+6.0",
     "netRapm": "+7.8"
   },
+  "Costello M.|ACB|2022-2023": {
+    "offRapm": "+3.7",
+    "defRapm": "+4.1",
+    "netRapm": "+7.8"
+  },
   "Tavares W.|Euroleague|2024-2025": {
     "offRapm": "+2.0",
     "defRapm": "+5.8",
@@ -102,6 +117,11 @@
   "Cordinier I.|LBA|2022-2023": {
     "offRapm": "+1.3",
     "defRapm": "+6.4",
+    "netRapm": "+7.6"
+  },
+  "Sanli S.|ACB|2022-2023": {
+    "offRapm": "+3.3",
+    "defRapm": "+4.4",
     "netRapm": "+7.6"
   },
   "Macura J.|LBA|2021-2022": {
@@ -164,6 +184,11 @@
     "defRapm": "+4.3",
     "netRapm": "+7.1"
   },
+  "Satoransky T.|ACB|2022-2023": {
+    "offRapm": "+2.3",
+    "defRapm": "+4.7",
+    "netRapm": "+7.1"
+  },
   "Courby M.|EuroCup|2024-2025": {
     "offRapm": "+2.0",
     "defRapm": "+5.1",
@@ -214,6 +239,16 @@
     "defRapm": "+4.7",
     "netRapm": "+6.8"
   },
+  "Musa D.|ACB|2022-2023": {
+    "offRapm": "+3.7",
+    "defRapm": "+3.0",
+    "netRapm": "+6.8"
+  },
+  "Mirotic N.|ACB|2022-2023": {
+    "offRapm": "+4.5",
+    "defRapm": "+2.3",
+    "netRapm": "+6.7"
+  },
   "Costello M.|ACB|2023-2024": {
     "offRapm": "+2.3",
     "defRapm": "+4.5",
@@ -227,6 +262,11 @@
   "Ogbeide D.|EuroCup|2024-2025": {
     "offRapm": "+1.9",
     "defRapm": "+4.9",
+    "netRapm": "+6.7"
+  },
+  "Kravish D.|ACB|2022-2023": {
+    "offRapm": "+2.3",
+    "defRapm": "+4.4",
     "netRapm": "+6.7"
   },
   "Borg T.|ACB|2023-2024": {
@@ -444,6 +484,11 @@
     "defRapm": "+4.2",
     "netRapm": "+6.0"
   },
+  "Thompson D.|ACB|2022-2023": {
+    "offRapm": "+3.0",
+    "defRapm": "+3.0",
+    "netRapm": "+6.0"
+  },
   "Carr M.|BCL|2025-2026": {
     "offRapm": "+2.6",
     "defRapm": "+3.4",
@@ -478,6 +523,11 @@
     "offRapm": "+0.8",
     "defRapm": "+5.1",
     "netRapm": "+5.9"
+  },
+  "Causeur F.|ACB|2022-2023": {
+    "offRapm": "+1.8",
+    "defRapm": "+4.0",
+    "netRapm": "+5.8"
   },
   "Teodosic M.|Euroleague|2023-2024": {
     "offRapm": "+2.4",
@@ -537,6 +587,11 @@
   "Satoransky T.|Euroleague|2025-2026": {
     "offRapm": "+1.1",
     "defRapm": "+4.6",
+    "netRapm": "+5.7"
+  },
+  "Montero J.|ACB|2022-2023": {
+    "offRapm": "+1.2",
+    "defRapm": "+4.5",
     "netRapm": "+5.7"
   },
   "Ferrell Y.|EuroCup|2021-2022": {
@@ -632,6 +687,11 @@
   "Winston C.|LBA|2024-2025": {
     "offRapm": "+0.7",
     "defRapm": "+4.7",
+    "netRapm": "+5.4"
+  },
+  "Cornelie P.|ACB|2022-2023": {
+    "offRapm": "+2.6",
+    "defRapm": "+2.9",
     "netRapm": "+5.4"
   },
   "Vezenkov S.|Euroleague|2024-2025": {
@@ -757,6 +817,11 @@
   "Belinelli M.|LBA|2022-2023": {
     "offRapm": "+4.4",
     "defRapm": "+0.8",
+    "netRapm": "+5.2"
+  },
+  "Kalinoski T.|ACB|2022-2023": {
+    "offRapm": "+2.1",
+    "defRapm": "+3.2",
     "netRapm": "+5.2"
   },
   "Costello M.|EuroCup|2020-2021": {
@@ -954,6 +1019,11 @@
     "defRapm": "+4.2",
     "netRapm": "+4.9"
   },
+  "Jou G.|ACB|2022-2023": {
+    "offRapm": "+0.2",
+    "defRapm": "+4.7",
+    "netRapm": "+4.9"
+  },
   "Campazzo F.|Euroleague|2022-2023": {
     "offRapm": "+0.8",
     "defRapm": "+4.1",
@@ -997,6 +1067,11 @@
   "Zoosman Y.|Euroleague|2022-2023": {
     "offRapm": "+0.7",
     "defRapm": "+4.1",
+    "netRapm": "+4.9"
+  },
+  "Howard M.|ACB|2022-2023": {
+    "offRapm": "+3.5",
+    "defRapm": "+1.4",
     "netRapm": "+4.9"
   },
   "Biberovic T.|Euroleague|2024-2025": {
@@ -1164,6 +1239,11 @@
     "defRapm": "+0.6",
     "netRapm": "+0.5"
   },
+  "Jovic S.|ACB|2022-2023": {
+    "offRapm": "+0.6",
+    "defRapm": "+4.0",
+    "netRapm": "+4.6"
+  },
   "Parra J.|EuroCup|2020-2021": {
     "offRapm": "+2.1",
     "defRapm": "+2.6",
@@ -1299,6 +1379,11 @@
     "defRapm": "+1.6",
     "netRapm": "+4.5"
   },
+  "Rivero J.|ACB|2022-2023": {
+    "offRapm": "+1.3",
+    "defRapm": "+3.2",
+    "netRapm": "+4.5"
+  },
   "Albicy A.|EuroCup|2023-2024": {
     "offRapm": "+1.8",
     "defRapm": "+2.7",
@@ -1324,9 +1409,19 @@
     "defRapm": "+3.5",
     "netRapm": "+4.5"
   },
+  "Carter T.|ACB|2022-2023": {
+    "offRapm": "+1.0",
+    "defRapm": "+3.5",
+    "netRapm": "+4.5"
+  },
   "Mirotic N.|Euroleague|2023-2024": {
     "offRapm": "+2.2",
     "defRapm": "+2.3",
+    "netRapm": "+4.5"
+  },
+  "Hommes D.|ACB|2022-2023": {
+    "offRapm": "+3.0",
+    "defRapm": "+1.5",
     "netRapm": "+4.5"
   },
   "Mathews J.|EuroCup|2025-2026": {
@@ -1337,6 +1432,11 @@
   "Jones C.|ACB|2024-2025": {
     "offRapm": "+4.0",
     "defRapm": "+0.4",
+    "netRapm": "+4.4"
+  },
+  "Jones C.|ACB|2022-2023": {
+    "offRapm": "+1.2",
+    "defRapm": "+3.3",
     "netRapm": "+4.4"
   },
   "Baldwin K.|ACB|2024-2025": {
@@ -1384,6 +1484,11 @@
     "defRapm": "+2.7",
     "netRapm": "+4.4"
   },
+  "Fitipaldo B.|ACB|2022-2023": {
+    "offRapm": "+0.6",
+    "defRapm": "+3.8",
+    "netRapm": "+4.4"
+  },
   "March R.|EuroCup|2023-2024": {
     "offRapm": "+2.1",
     "defRapm": "+2.2",
@@ -1429,9 +1534,19 @@
     "defRapm": "+2.8",
     "netRapm": "+4.3"
   },
+  "Salin S.|ACB|2022-2023": {
+    "offRapm": "+3.0",
+    "defRapm": "+1.3",
+    "netRapm": "+4.3"
+  },
   "Henry P.|Euroleague|2020-2021": {
     "offRapm": "+2.2",
     "defRapm": "+2.1",
+    "netRapm": "+4.3"
+  },
+  "Deck G.|ACB|2022-2023": {
+    "offRapm": "+1.9",
+    "defRapm": "+2.4",
     "netRapm": "+4.3"
   },
   "Lukosiunas K.|Euroleague|2021-2022": {
@@ -1529,6 +1644,11 @@
     "defRapm": "+1.9",
     "netRapm": "+4.2"
   },
+  "Feliz A.|ACB|2022-2023": {
+    "offRapm": "+1.1",
+    "defRapm": "+3.1",
+    "netRapm": "+4.2"
+  },
   "Pradilla J.|ACB|2025-2026": {
     "offRapm": "+3.3",
     "defRapm": "+0.9",
@@ -1577,6 +1697,11 @@
   "Howard W.|Euroleague|2020-2021": {
     "offRapm": "+2.3",
     "defRapm": "+1.8",
+    "netRapm": "+4.2"
+  },
+  "Vesely J.|ACB|2022-2023": {
+    "offRapm": "+1.2",
+    "defRapm": "+3.0",
     "netRapm": "+4.2"
   },
   "Krampelj M.|ACB|2025-2026": {
@@ -1662,6 +1787,11 @@
   "Hines K.|LBA|2021-2022": {
     "offRapm": "+0.8",
     "defRapm": "+3.3",
+    "netRapm": "+4.1"
+  },
+  "Fernandez R.|ACB|2022-2023": {
+    "offRapm": "+1.3",
+    "defRapm": "+2.8",
     "netRapm": "+4.1"
   },
   "Henry P.|Euroleague|2022-2023": {
@@ -1939,9 +2069,24 @@
     "defRapm": "+2.9",
     "netRapm": "+3.9"
   },
+  "Gerun V.|ACB|2022-2023": {
+    "offRapm": "+1.2",
+    "defRapm": "+2.7",
+    "netRapm": "+3.8"
+  },
   "Jones J.|EuroCup|2023-2024": {
     "offRapm": "+0.4",
     "defRapm": "+3.4",
+    "netRapm": "+3.8"
+  },
+  "Kotsar M.|ACB|2022-2023": {
+    "offRapm": "+1.5",
+    "defRapm": "+2.3",
+    "netRapm": "+3.8"
+  },
+  "Kalinic N.|ACB|2022-2023": {
+    "offRapm": "+0.6",
+    "defRapm": "+3.3",
     "netRapm": "+3.8"
   },
   "Ricci G.|EuroCup|2020-2021": {
@@ -2009,6 +2154,11 @@
     "defRapm": "+3.1",
     "netRapm": "+3.8"
   },
+  "Perry K.|ACB|2022-2023": {
+    "offRapm": "+2.0",
+    "defRapm": "+1.8",
+    "netRapm": "+3.8"
+  },
   "Thompson S.|LBA|2021-2022": {
     "offRapm": "+0.7",
     "defRapm": "+3.0",
@@ -2027,6 +2177,11 @@
   "Kuric K.|Euroleague|2021-2022": {
     "offRapm": "+2.1",
     "defRapm": "+1.6",
+    "netRapm": "+3.7"
+  },
+  "Abrines A.|ACB|2022-2023": {
+    "offRapm": "+1.9",
+    "defRapm": "+1.8",
     "netRapm": "+3.7"
   },
   "Tkachenko I.|EuroCup|2022-2023": {
@@ -2057,6 +2212,11 @@
   "Kljajic J.|EuroCup|2023-2024": {
     "offRapm": "+0.8",
     "defRapm": "+2.9",
+    "netRapm": "+3.7"
+  },
+  "Williams Goss N.|ACB|2022-2023": {
+    "offRapm": "+0.7",
+    "defRapm": "+3.0",
     "netRapm": "+3.7"
   },
   "Geben M.|ACB|2025-2026": {
@@ -2184,6 +2344,11 @@
     "defRapm": "+2.8",
     "netRapm": "+3.6"
   },
+  "Hlinason T.|ACB|2022-2023": {
+    "offRapm": "-1.0",
+    "defRapm": "+4.6",
+    "netRapm": "+3.6"
+  },
   "Cowan A.|EuroCup|2024-2025": {
     "offRapm": "+0.6",
     "defRapm": "+3.0",
@@ -2277,6 +2442,11 @@
   "Diakite M.|Euroleague|2025-2026": {
     "offRapm": "+1.3",
     "defRapm": "+2.2",
+    "netRapm": "+3.5"
+  },
+  "Osetkowski D.|ACB|2022-2023": {
+    "offRapm": "+0.7",
+    "defRapm": "+2.8",
     "netRapm": "+3.5"
   },
   "Jones D.|EuroCup|2025-2026": {
@@ -2614,6 +2784,11 @@
     "defRapm": "+2.0",
     "netRapm": "+3.4"
   },
+  "Vila E.|ACB|2022-2023": {
+    "offRapm": "+0.3",
+    "defRapm": "+3.0",
+    "netRapm": "+3.4"
+  },
   "Maledon T.|ACB|2025-2026": {
     "offRapm": "+0.7",
     "defRapm": "+2.7",
@@ -2644,6 +2819,11 @@
     "defRapm": "+1.5",
     "netRapm": "+3.3"
   },
+  "Jokubaitis R.|ACB|2022-2023": {
+    "offRapm": "+1.0",
+    "defRapm": "+2.3",
+    "netRapm": "+3.3"
+  },
   "Bacon D.|Euroleague|2025-2026": {
     "offRapm": "+2.5",
     "defRapm": "+0.9",
@@ -2662,6 +2842,11 @@
   "Wisniewski A.|EuroCup|2023-2024": {
     "offRapm": "+0.5",
     "defRapm": "+2.8",
+    "netRapm": "+3.3"
+  },
+  "Nakic T.|ACB|2022-2023": {
+    "offRapm": "+0.7",
+    "defRapm": "+2.6",
     "netRapm": "+3.3"
   },
   "Watt M.|LBA|2022-2023": {
@@ -2729,6 +2914,11 @@
     "defRapm": "+2.3",
     "netRapm": "+3.3"
   },
+  "Withey J.|ACB|2022-2023": {
+    "offRapm": "-0.9",
+    "defRapm": "+4.2",
+    "netRapm": "+3.3"
+  },
   "Nebo J.|Euroleague|2025-2026": {
     "offRapm": "+2.2",
     "defRapm": "+1.1",
@@ -2769,6 +2959,11 @@
     "defRapm": "+2.0",
     "netRapm": "+3.3"
   },
+  "Albicy A.|ACB|2022-2023": {
+    "offRapm": "+0.6",
+    "defRapm": "+2.7",
+    "netRapm": "+3.3"
+  },
   "Sorkin R.|Euroleague|2022-2023": {
     "offRapm": "+1.5",
     "defRapm": "+1.7",
@@ -2787,6 +2982,11 @@
   "James M.|Euroleague|2024-2025": {
     "offRapm": "+0.2",
     "defRapm": "+3.1",
+    "netRapm": "+3.3"
+  },
+  "Poirier V.|ACB|2022-2023": {
+    "offRapm": "+1.8",
+    "defRapm": "+1.5",
     "netRapm": "+3.3"
   },
   "Daye A.|LBA|2022-2023": {
@@ -3269,6 +3469,11 @@
     "defRapm": "+2.2",
     "netRapm": "+3.0"
   },
+  "Brussino N.|ACB|2022-2023": {
+    "offRapm": "+0.7",
+    "defRapm": "+2.4",
+    "netRapm": "+3.0"
+  },
   "Alocen C.|ACB|2024-2025": {
     "offRapm": "+0.6",
     "defRapm": "+2.5",
@@ -3302,6 +3507,11 @@
   "Diallo A.|Euroleague|2021-2022": {
     "offRapm": "+2.4",
     "defRapm": "+0.7",
+    "netRapm": "+3.0"
+  },
+  "Ubal A.|ACB|2022-2023": {
+    "offRapm": "-0.5",
+    "defRapm": "+3.5",
     "netRapm": "+3.0"
   },
   "Perkins T.|BCL|2025-2026": {
@@ -3734,6 +3944,11 @@
     "defRapm": "+0.5",
     "netRapm": "+2.8"
   },
+  "Jelinek D.|ACB|2022-2023": {
+    "offRapm": "-0.1",
+    "defRapm": "+2.9",
+    "netRapm": "+2.8"
+  },
   "Mosley W.|EuroCup|2020-2021": {
     "offRapm": "+0.5",
     "defRapm": "+2.3",
@@ -3787,6 +4002,11 @@
   "Burns C.|LBA|2021-2022": {
     "offRapm": "+0.6",
     "defRapm": "+2.2",
+    "netRapm": "+2.8"
+  },
+  "Ellenson H.|ACB|2022-2023": {
+    "offRapm": "+1.7",
+    "defRapm": "+1.1",
     "netRapm": "+2.8"
   },
   "Shengelia T.|LBA|2021-2022": {
@@ -3867,6 +4087,11 @@
   "Woldetensae T.|LBA|2022-2023": {
     "offRapm": "+1.6",
     "defRapm": "+1.1",
+    "netRapm": "+2.8"
+  },
+  "Bagayoko B.|ACB|2022-2023": {
+    "offRapm": "+0.1",
+    "defRapm": "+2.6",
     "netRapm": "+2.8"
   },
   "Happ E.|ACB|2025-2026": {
@@ -4119,6 +4344,11 @@
     "defRapm": "+0.9",
     "netRapm": "+2.7"
   },
+  "Tomic A.|ACB|2022-2023": {
+    "offRapm": "+0.9",
+    "defRapm": "+1.7",
+    "netRapm": "+2.7"
+  },
   "Shermadini G.|ACB|2023-2024": {
     "offRapm": "+3.2",
     "defRapm": "-0.6",
@@ -4179,6 +4409,11 @@
     "defRapm": "+1.7",
     "netRapm": "+2.6"
   },
+  "Webb J.|ACB|2022-2023": {
+    "offRapm": "+0.3",
+    "defRapm": "+2.3",
+    "netRapm": "+2.6"
+  },
   "Abalde A.|ACB|2023-2024": {
     "offRapm": "+0.2",
     "defRapm": "+2.5",
@@ -4229,9 +4464,19 @@
     "defRapm": "+2.0",
     "netRapm": "+2.6"
   },
+  "Birgander S.|ACB|2022-2023": {
+    "offRapm": "+0.7",
+    "defRapm": "+1.9",
+    "netRapm": "+2.6"
+  },
   "Kolenda M.|BCL|2025-2026": {
     "offRapm": "+0.8",
     "defRapm": "+1.9",
+    "netRapm": "+2.6"
+  },
+  "Yabusele G.|ACB|2022-2023": {
+    "offRapm": "+1.5",
+    "defRapm": "+1.1",
     "netRapm": "+2.6"
   },
   "Bartley F.|LBA|2022-2023": {
@@ -4267,6 +4512,11 @@
   "Ricci G.|Euroleague|2025-2026": {
     "offRapm": "+1.4",
     "defRapm": "+1.2",
+    "netRapm": "+2.6"
+  },
+  "Radovic N.|ACB|2022-2023": {
+    "offRapm": "+0.9",
+    "defRapm": "+1.7",
     "netRapm": "+2.6"
   },
   "Fernandez R.|Euroleague|2022-2023": {
@@ -4509,6 +4759,11 @@
     "defRapm": "+2.0",
     "netRapm": "+2.5"
   },
+  "Henry P.|ACB|2022-2023": {
+    "offRapm": "+1.4",
+    "defRapm": "+1.1",
+    "netRapm": "+2.5"
+  },
   "Jensen T.|EuroCup|2025-2026": {
     "offRapm": "+1.1",
     "defRapm": "+1.3",
@@ -4549,6 +4804,11 @@
     "defRapm": "+1.4",
     "netRapm": "+2.5"
   },
+  "Sedekerskis T.|ACB|2022-2023": {
+    "offRapm": "+1.1",
+    "defRapm": "+1.4",
+    "netRapm": "+2.5"
+  },
   "Sleva D.|EuroCup|2024-2025": {
     "offRapm": "+1.6",
     "defRapm": "+0.8",
@@ -4582,6 +4842,11 @@
   "Djedovic N.|BCL|2025-2026": {
     "offRapm": "+1.1",
     "defRapm": "+1.4",
+    "netRapm": "+2.5"
+  },
+  "Diop K.|ACB|2022-2023": {
+    "offRapm": "+0.2",
+    "defRapm": "+2.2",
     "netRapm": "+2.5"
   },
   "Forray T.|LBA|2023-2024": {
@@ -5024,6 +5289,11 @@
     "defRapm": "-0.9",
     "netRapm": "-3.3"
   },
+  "Zurbriggen F.|ACB|2022-2023": {
+    "offRapm": "+0.5",
+    "defRapm": "+1.8",
+    "netRapm": "+2.3"
+  },
   "Teodosic M.|Euroleague|2022-2023": {
     "offRapm": "+1.2",
     "defRapm": "+1.0",
@@ -5264,6 +5534,11 @@
     "defRapm": "+1.5",
     "netRapm": "+2.2"
   },
+  "Laprovittola N.|ACB|2022-2023": {
+    "offRapm": "+1.2",
+    "defRapm": "+1.0",
+    "netRapm": "+2.2"
+  },
   "Hassan P.|LBA|2025-2026": {
     "offRapm": "+1.2",
     "defRapm": "+1.0",
@@ -5394,6 +5669,16 @@
     "defRapm": "+1.5",
     "netRapm": "+2.2"
   },
+  "Brodziansky V.|ACB|2022-2023": {
+    "offRapm": "+0.5",
+    "defRapm": "+1.7",
+    "netRapm": "+2.2"
+  },
+  "Happ E.|ACB|2022-2023": {
+    "offRapm": "+0.5",
+    "defRapm": "+1.6",
+    "netRapm": "+2.2"
+  },
   "Diop K.|EuroCup|2022-2023": {
     "offRapm": "+1.6",
     "defRapm": "+0.6",
@@ -5402,6 +5687,11 @@
   "Kairys E.|ACB|2023-2024": {
     "offRapm": "-0.4",
     "defRapm": "+2.6",
+    "netRapm": "+2.2"
+  },
+  "Niang P.|ACB|2022-2023": {
+    "offRapm": "+0.2",
+    "defRapm": "+1.9",
     "netRapm": "+2.2"
   },
   "Tessitori A.|LBA|2025-2026": {
@@ -5477,6 +5767,16 @@
   "Shengelia T.|EuroCup|2021-2022": {
     "offRapm": "-0.1",
     "defRapm": "+2.2",
+    "netRapm": "+2.1"
+  },
+  "Ferrando G.|ACB|2022-2023": {
+    "offRapm": "+0.4",
+    "defRapm": "+1.8",
+    "netRapm": "+2.1"
+  },
+  "Bamforth S.|ACB|2022-2023": {
+    "offRapm": "+2.2",
+    "defRapm": "-0.1",
     "netRapm": "+2.1"
   },
   "Biberovic T.|Euroleague|2021-2022": {
@@ -5654,6 +5954,11 @@
     "defRapm": "+1.0",
     "netRapm": "+2.1"
   },
+  "Fernandez J.|ACB|2022-2023": {
+    "offRapm": "-1.4",
+    "defRapm": "-1.2",
+    "netRapm": "-2.6"
+  },
   "Akyazili T.|EuroCup|2020-2021": {
     "offRapm": "+0.4",
     "defRapm": "+1.6",
@@ -5722,6 +6027,11 @@
   "Reyes A.|ACB|2025-2026": {
     "offRapm": "-0.5",
     "defRapm": "+2.6",
+    "netRapm": "+2.0"
+  },
+  "Da Silva O.|ACB|2022-2023": {
+    "offRapm": "+1.0",
+    "defRapm": "+1.0",
     "netRapm": "+2.0"
   },
   "Kuath K.|BCL|2025-2026": {
@@ -5812,6 +6122,11 @@
   "Tuncer B.|Euroleague|2020-2021": {
     "offRapm": "+0.1",
     "defRapm": "+1.9",
+    "netRapm": "+2.0"
+  },
+  "Scrubb P.|ACB|2022-2023": {
+    "offRapm": "+1.6",
+    "defRapm": "+0.4",
     "netRapm": "+2.0"
   },
   "Jones C.|EuroCup|2024-2025": {
@@ -5984,6 +6299,11 @@
     "defRapm": "+1.5",
     "netRapm": "+2.0"
   },
+  "Brizuela D.|ACB|2022-2023": {
+    "offRapm": "+1.2",
+    "defRapm": "+0.7",
+    "netRapm": "+2.0"
+  },
   "Ilic A.|EuroCup|2022-2023": {
     "offRapm": "+0.9",
     "defRapm": "+1.0",
@@ -6049,6 +6369,11 @@
     "defRapm": "+1.5",
     "netRapm": "+1.9"
   },
+  "Vives G.|ACB|2022-2023": {
+    "offRapm": "+1.5",
+    "defRapm": "+0.4",
+    "netRapm": "+1.9"
+  },
   "Valentine D.|LBA|2024-2025": {
     "offRapm": "+0.8",
     "defRapm": "+1.1",
@@ -6087,6 +6412,11 @@
   "Dubljevic B.|Euroleague|2020-2021": {
     "offRapm": "+0.9",
     "defRapm": "+1.1",
+    "netRapm": "+1.9"
+  },
+  "Geben M.|ACB|2022-2023": {
+    "offRapm": "0.0",
+    "defRapm": "+1.9",
     "netRapm": "+1.9"
   },
   "Brimah A.|EuroCup|2024-2025": {
@@ -6172,6 +6502,11 @@
   "Simonovic M.|EuroCup|2024-2025": {
     "offRapm": "-0.3",
     "defRapm": "+2.2",
+    "netRapm": "+1.9"
+  },
+  "Guerra F.|ACB|2022-2023": {
+    "offRapm": "+1.5",
+    "defRapm": "+0.4",
     "netRapm": "+1.9"
   },
   "Pajola A.|Euroleague|2023-2024": {
@@ -6274,6 +6609,11 @@
     "defRapm": "+2.4",
     "netRapm": "+1.9"
   },
+  "Ejim M.|ACB|2022-2023": {
+    "offRapm": "0.0",
+    "defRapm": "+1.9",
+    "netRapm": "+1.9"
+  },
   "Mawein A.|BCL|2025-2026": {
     "offRapm": "0.0",
     "defRapm": "+1.9",
@@ -6282,6 +6622,11 @@
   "Dimsa T.|Euroleague|2022-2023": {
     "offRapm": "+0.9",
     "defRapm": "+0.9",
+    "netRapm": "+1.9"
+  },
+  "Radebaugh J.|ACB|2022-2023": {
+    "offRapm": "+1.5",
+    "defRapm": "+0.4",
     "netRapm": "+1.9"
   },
   "Allman K.|EuroCup|2025-2026": {
@@ -6509,6 +6854,11 @@
     "defRapm": "+1.7",
     "netRapm": "+1.8"
   },
+  "Giedraitis R.|ACB|2022-2023": {
+    "offRapm": "+2.4",
+    "defRapm": "-0.6",
+    "netRapm": "+1.8"
+  },
   "Jones C.|ACB|2023-2024": {
     "offRapm": "-0.2",
     "defRapm": "+2.0",
@@ -6549,6 +6899,11 @@
     "defRapm": "+0.2",
     "netRapm": "+1.8"
   },
+  "Cook E.|ACB|2022-2023": {
+    "offRapm": "+1.4",
+    "defRapm": "+0.3",
+    "netRapm": "+1.8"
+  },
   "Massa B.|EuroCup|2023-2024": {
     "offRapm": "-0.7",
     "defRapm": "+2.4",
@@ -6564,6 +6919,11 @@
     "defRapm": "+0.6",
     "netRapm": "+1.7"
   },
+  "Robinson D.|ACB|2022-2023": {
+    "offRapm": "-0.4",
+    "defRapm": "+2.1",
+    "netRapm": "+1.7"
+  },
   "White O.|Euroleague|2021-2022": {
     "offRapm": "-0.3",
     "defRapm": "+2.1",
@@ -6577,6 +6937,11 @@
   "Zerini A.|LBA|2022-2023": {
     "offRapm": "0.0",
     "defRapm": "+1.8",
+    "netRapm": "+1.7"
+  },
+  "Barreiro J.|ACB|2022-2023": {
+    "offRapm": "+1.3",
+    "defRapm": "+0.5",
     "netRapm": "+1.7"
   },
   "McGhee D.|EuroCup|2025-2026": {
@@ -7044,6 +7409,11 @@
     "defRapm": "+0.4",
     "netRapm": "+1.6"
   },
+  "Huertas M.|ACB|2022-2023": {
+    "offRapm": "+1.6",
+    "defRapm": "0.0",
+    "netRapm": "+1.6"
+  },
   "Ventura A.|EuroCup|2020-2021": {
     "offRapm": "+0.8",
     "defRapm": "+0.8",
@@ -7134,6 +7504,11 @@
     "defRapm": "-0.6",
     "netRapm": "+1.6"
   },
+  "Balcerowski A.|ACB|2022-2023": {
+    "offRapm": "+0.7",
+    "defRapm": "+0.8",
+    "netRapm": "+1.6"
+  },
   "McKissic S.|Euroleague|2020-2021": {
     "offRapm": "+0.9",
     "defRapm": "+0.7",
@@ -7147,6 +7522,11 @@
   "Mokoka A.|EuroCup|2024-2025": {
     "offRapm": "+0.9",
     "defRapm": "+0.7",
+    "netRapm": "+1.6"
+  },
+  "Garcia J.|ACB|2022-2023": {
+    "offRapm": "+0.6",
+    "defRapm": "+0.9",
     "netRapm": "+1.6"
   },
   "Da Silva O.|Euroleague|2022-2023": {
@@ -7649,6 +8029,11 @@
     "defRapm": "+1.5",
     "netRapm": "+1.4"
   },
+  "Simanic B.|ACB|2022-2023": {
+    "offRapm": "-0.2",
+    "defRapm": "+1.6",
+    "netRapm": "+1.4"
+  },
   "Dozier P.|Euroleague|2023-2024": {
     "offRapm": "+1.0",
     "defRapm": "+0.4",
@@ -7732,6 +8117,11 @@
   "Dokossi A.|Euroleague|2025-2026": {
     "offRapm": "+0.4",
     "defRapm": "+1.0",
+    "netRapm": "+1.4"
+  },
+  "Taylor K.|ACB|2022-2023": {
+    "offRapm": "-0.6",
+    "defRapm": "+2.0",
     "netRapm": "+1.4"
   },
   "Hermannsson M.|Euroleague|2020-2021": {
@@ -7954,6 +8344,11 @@
     "defRapm": "+1.0",
     "netRapm": "+1.3"
   },
+  "Abromaitis T.|ACB|2022-2023": {
+    "offRapm": "+0.2",
+    "defRapm": "+1.1",
+    "netRapm": "+1.3"
+  },
   "Christen R.|EuroCup|2022-2023": {
     "offRapm": "+0.5",
     "defRapm": "+0.8",
@@ -8032,6 +8427,11 @@
   "Berhanemeskel J.|BCL|2025-2026": {
     "offRapm": "+1.3",
     "defRapm": "0.0",
+    "netRapm": "+1.3"
+  },
+  "Thomas W.|ACB|2022-2023": {
+    "offRapm": "+1.1",
+    "defRapm": "+0.2",
     "netRapm": "+1.3"
   },
   "Poythress A.|Euroleague|2021-2022": {
@@ -8289,6 +8689,11 @@
     "defRapm": "+1.6",
     "netRapm": "+1.2"
   },
+  "Lopez Arostegui X.|ACB|2022-2023": {
+    "offRapm": "+1.8",
+    "defRapm": "-0.6",
+    "netRapm": "+1.2"
+  },
   "Mike I.|EuroCup|2022-2023": {
     "offRapm": "+1.1",
     "defRapm": "+0.1",
@@ -8302,6 +8707,11 @@
   "Pajola A.|Euroleague|2024-2025": {
     "offRapm": "-0.1",
     "defRapm": "+1.3",
+    "netRapm": "+1.2"
+  },
+  "Higgins C.|ACB|2022-2023": {
+    "offRapm": "+0.2",
+    "defRapm": "+1.0",
     "netRapm": "+1.2"
   },
   "Puerto J.|Euroleague|2025-2026": {
@@ -8362,6 +8772,11 @@
   "Ellis Q.|Domestic cup|2025-2026": {
     "offRapm": "+1.1",
     "defRapm": "+0.1",
+    "netRapm": "+1.2"
+  },
+  "Kurucs A.|ACB|2022-2023": {
+    "offRapm": "+1.4",
+    "defRapm": "-0.2",
     "netRapm": "+1.2"
   },
   "Dawkins A.|EuroCup|2022-2023": {
@@ -8494,6 +8909,11 @@
     "defRapm": "+1.6",
     "netRapm": "+1.2"
   },
+  "Djedovic N.|ACB|2022-2023": {
+    "offRapm": "+0.8",
+    "defRapm": "+0.4",
+    "netRapm": "+1.2"
+  },
   "Busquets P.|ACB|2024-2025": {
     "offRapm": "+1.5",
     "defRapm": "-0.3",
@@ -8552,6 +8972,11 @@
   "Mantzoukas L.|Euroleague|2022-2023": {
     "offRapm": "+0.5",
     "defRapm": "+0.7",
+    "netRapm": "+1.2"
+  },
+  "Kuric K.|ACB|2022-2023": {
+    "offRapm": "+1.9",
+    "defRapm": "-0.7",
     "netRapm": "+1.2"
   },
   "Benitez H.|EuroCup|2021-2022": {
@@ -8639,6 +9064,11 @@
     "defRapm": "+1.0",
     "netRapm": "+1.1"
   },
+  "Ribas P.|ACB|2022-2023": {
+    "offRapm": "+0.3",
+    "defRapm": "+0.8",
+    "netRapm": "+1.1"
+  },
   "Miller McIntyre C.|ACB|2023-2024": {
     "offRapm": "+1.3",
     "defRapm": "-0.2",
@@ -8657,6 +9087,11 @@
   "Cate E.|ACB|2025-2026": {
     "offRapm": "-1.0",
     "defRapm": "+2.1",
+    "netRapm": "+1.1"
+  },
+  "Bassas F.|ACB|2022-2023": {
+    "offRapm": "+1.7",
+    "defRapm": "-0.5",
     "netRapm": "+1.1"
   },
   "Djordjevic S.|EuroCup|2025-2026": {
@@ -8919,6 +9354,16 @@
     "defRapm": "+1.8",
     "netRapm": "+1.0"
   },
+  "Yusta S.|ACB|2022-2023": {
+    "offRapm": "-0.2",
+    "defRapm": "+1.2",
+    "netRapm": "+1.0"
+  },
+  "Parra J.|ACB|2022-2023": {
+    "offRapm": "+0.5",
+    "defRapm": "+0.5",
+    "netRapm": "+1.0"
+  },
   "Lundberg I.|LBA|2022-2023": {
     "offRapm": "+0.5",
     "defRapm": "+0.5",
@@ -8982,6 +9427,16 @@
   "Al O.|EuroCup|2021-2022": {
     "offRapm": "+1.4",
     "defRapm": "-0.4",
+    "netRapm": "+1.0"
+  },
+  "Westermann L.|ACB|2022-2023": {
+    "offRapm": "-0.9",
+    "defRapm": "+1.9",
+    "netRapm": "+1.0"
+  },
+  "Vaulet J.|ACB|2022-2023": {
+    "offRapm": "0.0",
+    "defRapm": "+1.1",
     "netRapm": "+1.0"
   },
   "Punter K.|Euroleague|2020-2021": {
@@ -9072,6 +9527,11 @@
   "Fall Y.|Euroleague|2022-2023": {
     "offRapm": "+0.5",
     "defRapm": "+0.5",
+    "netRapm": "+1.0"
+  },
+  "Andronikashvili R.|ACB|2022-2023": {
+    "offRapm": "0.0",
+    "defRapm": "+1.0",
     "netRapm": "+1.0"
   },
   "Francis D.|BCL|2025-2026": {
@@ -9187,6 +9647,11 @@
   "Daum M.|LBA|2022-2023": {
     "offRapm": "-0.1",
     "defRapm": "+1.1",
+    "netRapm": "+1.0"
+  },
+  "Bender D.|ACB|2022-2023": {
+    "offRapm": "+0.2",
+    "defRapm": "+0.8",
     "netRapm": "+1.0"
   },
   "De Colo N.|Euroleague|2023-2024": {
@@ -9307,6 +9772,11 @@
   "Dinwiddie S.|Euroleague|2025-2026": {
     "offRapm": "-0.5",
     "defRapm": "+1.4",
+    "netRapm": "+0.9"
+  },
+  "Badio B.|ACB|2022-2023": {
+    "offRapm": "-0.3",
+    "defRapm": "+1.2",
     "netRapm": "+0.9"
   },
   "Doumbia U.|BCL|2025-2026": {
@@ -9479,6 +9949,11 @@
     "defRapm": "+1.8",
     "netRapm": "+0.9"
   },
+  "Maye L.|ACB|2022-2023": {
+    "offRapm": "-0.2",
+    "defRapm": "+1.1",
+    "netRapm": "+0.9"
+  },
   "Mokoka A.|LBA|2022-2023": {
     "offRapm": "-0.2",
     "defRapm": "+1.0",
@@ -9629,6 +10104,11 @@
     "defRapm": "+0.7",
     "netRapm": "+0.8"
   },
+  "Pustovyi A.|ACB|2022-2023": {
+    "offRapm": "-0.4",
+    "defRapm": "+1.2",
+    "netRapm": "+0.8"
+  },
   "Jaramaz O.|Euroleague|2023-2024": {
     "offRapm": "+0.1",
     "defRapm": "+0.8",
@@ -9652,6 +10132,11 @@
   "Laprovittola N.|ACB|2023-2024": {
     "offRapm": "+1.7",
     "defRapm": "-0.9",
+    "netRapm": "+0.8"
+  },
+  "Andersson D.|ACB|2022-2023": {
+    "offRapm": "-0.6",
+    "defRapm": "+1.4",
     "netRapm": "+0.8"
   },
   "Sedekerskis T.|ACB|2025-2026": {
@@ -9774,6 +10259,11 @@
     "defRapm": "-0.1",
     "netRapm": "+0.8"
   },
+  "Hanga A.|ACB|2022-2023": {
+    "offRapm": "+0.1",
+    "defRapm": "+0.7",
+    "netRapm": "+0.8"
+  },
   "Massa B.|ACB|2024-2025": {
     "offRapm": "-1.7",
     "defRapm": "+2.5",
@@ -9804,6 +10294,11 @@
     "defRapm": "+0.7",
     "netRapm": "+0.8"
   },
+  "Maronka Z.|ACB|2022-2023": {
+    "offRapm": "-0.4",
+    "defRapm": "+1.2",
+    "netRapm": "+0.8"
+  },
   "Lundberg I.|Euroleague|2021-2022": {
     "offRapm": "+0.2",
     "defRapm": "+0.6",
@@ -9817,6 +10312,11 @@
   "Sokolowski M.|LBA|2023-2024": {
     "offRapm": "+1.1",
     "defRapm": "-0.3",
+    "netRapm": "+0.8"
+  },
+  "Jenkins J.|ACB|2022-2023": {
+    "offRapm": "+0.1",
+    "defRapm": "+0.7",
     "netRapm": "+0.8"
   },
   "Grant D.|ACB|2024-2025": {
@@ -10114,6 +10614,11 @@
     "defRapm": "+2.0",
     "netRapm": "+0.7"
   },
+  "Colom Q.|ACB|2022-2023": {
+    "offRapm": "+0.1",
+    "defRapm": "+0.6",
+    "netRapm": "+0.7"
+  },
   "Pansa J.|EuroCup|2024-2025": {
     "offRapm": "+0.3",
     "defRapm": "+0.4",
@@ -10152,6 +10657,11 @@
   "Brown J.|Euroleague|2023-2024": {
     "offRapm": "+0.5",
     "defRapm": "+0.2",
+    "netRapm": "+0.7"
+  },
+  "Shurna J.|ACB|2022-2023": {
+    "offRapm": "+2.0",
+    "defRapm": "-1.3",
     "netRapm": "+0.7"
   },
   "Devoe M.|EuroCup|2025-2026": {
@@ -10369,6 +10879,11 @@
     "defRapm": "+1.1",
     "netRapm": "+0.6"
   },
+  "Sorolla J.|ACB|2022-2023": {
+    "offRapm": "-1.8",
+    "defRapm": "+2.4",
+    "netRapm": "+0.6"
+  },
   "Chassang A.|EuroCup|2021-2022": {
     "offRapm": "+0.4",
     "defRapm": "+0.3",
@@ -10389,9 +10904,19 @@
     "defRapm": "+1.0",
     "netRapm": "+0.6"
   },
+  "Rosa I.|ACB|2022-2023": {
+    "offRapm": "+0.7",
+    "defRapm": "-0.1",
+    "netRapm": "+0.6"
+  },
   "Ruzzier M.|LBA|2021-2022": {
     "offRapm": "-1.2",
     "defRapm": "+1.8",
+    "netRapm": "+0.6"
+  },
+  "Slaughter A.|ACB|2022-2023": {
+    "offRapm": "+0.8",
+    "defRapm": "-0.1",
     "netRapm": "+0.6"
   },
   "Baldwin W.|Euroleague|2022-2023": {
@@ -10612,6 +11137,11 @@
   "Hayes Davis N.|Euroleague|2024-2025": {
     "offRapm": "-0.1",
     "defRapm": "+0.7",
+    "netRapm": "+0.6"
+  },
+  "Olumuyiwa B.|ACB|2022-2023": {
+    "offRapm": "+0.2",
+    "defRapm": "+0.4",
     "netRapm": "+0.6"
   },
   "Brown S.|LBA|2025-2026": {
@@ -10864,6 +11394,16 @@
     "defRapm": "-1.2",
     "netRapm": "+0.5"
   },
+  "Arteaga V.|ACB|2022-2023": {
+    "offRapm": "+1.1",
+    "defRapm": "-0.6",
+    "netRapm": "+0.5"
+  },
+  "Savkov P.|ACB|2022-2023": {
+    "offRapm": "-0.2",
+    "defRapm": "+0.7",
+    "netRapm": "+0.5"
+  },
   "Busquets P.|EuroCup|2021-2022": {
     "offRapm": "+0.7",
     "defRapm": "-0.2",
@@ -10922,6 +11462,11 @@
   "Gentile A.|LBA|2023-2024": {
     "offRapm": "+0.1",
     "defRapm": "+0.4",
+    "netRapm": "+0.5"
+  },
+  "Vicedo E.|ACB|2022-2023": {
+    "offRapm": "+1.4",
+    "defRapm": "-0.9",
     "netRapm": "+0.5"
   },
   "Denegri D.|LBA|2023-2024": {
@@ -11072,6 +11617,11 @@
   "Ladurner M.|LBA|2022-2023": {
     "offRapm": "-0.4",
     "defRapm": "+0.8",
+    "netRapm": "+0.4"
+  },
+  "Pauli O.|ACB|2022-2023": {
+    "offRapm": "+1.4",
+    "defRapm": "-0.9",
     "netRapm": "+0.4"
   },
   "Tessitori A.|EuroCup|2022-2023": {
@@ -11254,6 +11804,11 @@
     "defRapm": "-0.6",
     "netRapm": "+0.4"
   },
+  "Cruz I.|ACB|2022-2023": {
+    "offRapm": "+0.6",
+    "defRapm": "-0.2",
+    "netRapm": "+0.4"
+  },
   "Niziol J.|EuroCup|2022-2023": {
     "offRapm": "-0.9",
     "defRapm": "+1.3",
@@ -11314,6 +11869,11 @@
     "defRapm": "-1.9",
     "netRapm": "+0.4"
   },
+  "Iriarte D.|ACB|2022-2023": {
+    "offRapm": "-1.2",
+    "defRapm": "+1.6",
+    "netRapm": "+0.4"
+  },
   "Petrucelli J.|BCL|2025-2026": {
     "offRapm": "-0.7",
     "defRapm": "+1.1",
@@ -11332,6 +11892,11 @@
   "Andrews A.|EuroCup|2021-2022": {
     "offRapm": "+1.6",
     "defRapm": "-1.2",
+    "netRapm": "+0.4"
+  },
+  "McFadden T.|ACB|2022-2023": {
+    "offRapm": "-0.3",
+    "defRapm": "+0.7",
     "netRapm": "+0.4"
   },
   "Jovic S.|ACB|2023-2024": {
@@ -11482,6 +12047,11 @@
   "Ouattara Y.|Euroleague|2022-2023": {
     "offRapm": "+2.1",
     "defRapm": "-1.7",
+    "netRapm": "+0.3"
+  },
+  "Ponitka M.|ACB|2022-2023": {
+    "offRapm": "-1.0",
+    "defRapm": "+1.4",
     "netRapm": "+0.3"
   },
   "Diop K.|EuroCup|2020-2021": {
@@ -11709,6 +12279,11 @@
     "defRapm": "+1.1",
     "netRapm": "+0.3"
   },
+  "Bolmaro L.|ACB|2022-2023": {
+    "offRapm": "+0.1",
+    "defRapm": "+0.2",
+    "netRapm": "+0.3"
+  },
   "Katsivelis D.|BCL|2025-2026": {
     "offRapm": "+0.6",
     "defRapm": "-0.3",
@@ -11732,6 +12307,11 @@
   "Birutis L.|Euroleague|2022-2023": {
     "offRapm": "+1.3",
     "defRapm": "-1.0",
+    "netRapm": "+0.3"
+  },
+  "Inglis D.|ACB|2022-2023": {
+    "offRapm": "-0.7",
+    "defRapm": "+1.0",
     "netRapm": "+0.3"
   },
   "Marshall N.|LBA|2025-2026": {
@@ -11974,6 +12554,16 @@
     "defRapm": "-0.1",
     "netRapm": "+0.2"
   },
+  "Stevic O.|ACB|2022-2023": {
+    "offRapm": "+0.8",
+    "defRapm": "-0.6",
+    "netRapm": "+0.2"
+  },
+  "Novak J.|ACB|2022-2023": {
+    "offRapm": "+0.9",
+    "defRapm": "-0.7",
+    "netRapm": "+0.2"
+  },
   "Davis C.|EuroCup|2025-2026": {
     "offRapm": "-1.3",
     "defRapm": "+1.5",
@@ -12114,6 +12704,11 @@
     "defRapm": "+0.6",
     "netRapm": "+0.2"
   },
+  "Prepelic K.|ACB|2022-2023": {
+    "offRapm": "+0.6",
+    "defRapm": "-0.4",
+    "netRapm": "+0.2"
+  },
   "De Larrea S.|ACB|2024-2025": {
     "offRapm": "-0.8",
     "defRapm": "+1.0",
@@ -12244,6 +12839,11 @@
     "defRapm": "-0.8",
     "netRapm": "+0.2"
   },
+  "Puerto J.|ACB|2022-2023": {
+    "offRapm": "+0.2",
+    "defRapm": "0.0",
+    "netRapm": "+0.2"
+  },
   "Makoundou Y.|EuroCup|2024-2025": {
     "offRapm": "+0.1",
     "defRapm": "0.0",
@@ -12319,6 +12919,11 @@
     "defRapm": "+0.2",
     "netRapm": "+0.1"
   },
+  "Gasol M.|ACB|2022-2023": {
+    "offRapm": "-0.2",
+    "defRapm": "+0.3",
+    "netRapm": "+0.1"
+  },
   "Daum M.|Euroleague|2023-2024": {
     "offRapm": "-0.1",
     "defRapm": "+0.3",
@@ -12357,6 +12962,11 @@
   "Thomasson J.|EuroCup|2025-2026": {
     "offRapm": "+0.7",
     "defRapm": "-0.5",
+    "netRapm": "+0.1"
+  },
+  "Guerrero R.|ACB|2022-2023": {
+    "offRapm": "+0.5",
+    "defRapm": "-0.4",
     "netRapm": "+0.1"
   },
   "Ndiaye M.|Euroleague|2025-2026": {
@@ -12869,6 +13479,11 @@
     "defRapm": "-1.3",
     "netRapm": "0.0"
   },
+  "Hollatz J.|ACB|2022-2023": {
+    "offRapm": "-0.4",
+    "defRapm": "+0.4",
+    "netRapm": "0.0"
+  },
   "Yaacov N.|BCL|2025-2026": {
     "offRapm": "+0.1",
     "defRapm": "-0.1",
@@ -12954,6 +13569,11 @@
     "defRapm": "-0.9",
     "netRapm": "0.0"
   },
+  "Sastre J.|ACB|2022-2023": {
+    "offRapm": "-0.1",
+    "defRapm": "+0.1",
+    "netRapm": "0.0"
+  },
   "Lamb A.|EuroCup|2024-2025": {
     "offRapm": "-1.7",
     "defRapm": "+1.7",
@@ -12989,6 +13609,11 @@
     "defRapm": "-0.3",
     "netRapm": "0.0"
   },
+  "Blazevic M.|ACB|2022-2023": {
+    "offRapm": "+0.4",
+    "defRapm": "-0.4",
+    "netRapm": "0.0"
+  },
   "Smits R.|Euroleague|2024-2025": {
     "offRapm": "-0.3",
     "defRapm": "+0.2",
@@ -13014,9 +13639,19 @@
     "defRapm": "+0.2",
     "netRapm": "0.0"
   },
+  "Busquets P.|ACB|2022-2023": {
+    "offRapm": "+0.3",
+    "defRapm": "-0.3",
+    "netRapm": "0.0"
+  },
   "Lamb D.|LBA|2021-2022": {
     "offRapm": "+0.3",
     "defRapm": "-0.3",
+    "netRapm": "0.0"
+  },
+  "Cvetkovic A.|ACB|2022-2023": {
+    "offRapm": "+0.1",
+    "defRapm": "-0.1",
     "netRapm": "0.0"
   },
   "Jokubaitis R.|Euroleague|2023-2024": {
@@ -13047,6 +13682,11 @@
   "Abdur Rahkman M.|ACB|2024-2025": {
     "offRapm": "-0.8",
     "defRapm": "+0.7",
+    "netRapm": "0.0"
+  },
+  "Hezonja M.|ACB|2022-2023": {
+    "offRapm": "+0.2",
+    "defRapm": "-0.2",
     "netRapm": "0.0"
   },
   "Mihailovic V.|EuroCup|2023-2024": {
@@ -13159,6 +13799,11 @@
     "defRapm": "-0.3",
     "netRapm": "-0.1"
   },
+  "Quintela S.|ACB|2022-2023": {
+    "offRapm": "-2.2",
+    "defRapm": "+2.2",
+    "netRapm": "-0.1"
+  },
   "Lekavicius L.|Euroleague|2021-2022": {
     "offRapm": "+0.3",
     "defRapm": "-0.4",
@@ -13222,6 +13867,11 @@
   "Nebo J.|LBA|2024-2025": {
     "offRapm": "0.0",
     "defRapm": "-0.1",
+    "netRapm": "-0.1"
+  },
+  "Sakho J.|ACB|2022-2023": {
+    "offRapm": "-1.3",
+    "defRapm": "+1.2",
     "netRapm": "-0.1"
   },
   "Mitchell V.|EuroCup|2025-2026": {
@@ -13384,6 +14034,11 @@
     "defRapm": "+2.0",
     "netRapm": "-0.1"
   },
+  "Chiozza C.|ACB|2022-2023": {
+    "offRapm": "-0.1",
+    "defRapm": "0.0",
+    "netRapm": "-0.1"
+  },
   "Thomas D.|LBA|2022-2023": {
     "offRapm": "-0.2",
     "defRapm": "+0.1",
@@ -13457,6 +14112,21 @@
   "Parker J.|Euroleague|2024-2025": {
     "offRapm": "+1.3",
     "defRapm": "-1.4",
+    "netRapm": "-0.1"
+  },
+  "Rabaseda X.|ACB|2022-2023": {
+    "offRapm": "-0.8",
+    "defRapm": "+0.7",
+    "netRapm": "-0.1"
+  },
+  "Magnay W.|ACB|2022-2023": {
+    "offRapm": "-0.6",
+    "defRapm": "+0.5",
+    "netRapm": "-0.1"
+  },
+  "Reyes A.|ACB|2022-2023": {
+    "offRapm": "-0.6",
+    "defRapm": "+0.4",
     "netRapm": "-0.1"
   },
   "Ramsey J.|BCL|2025-2026": {
@@ -13564,6 +14234,11 @@
     "defRapm": "-1.0",
     "netRapm": "-0.1"
   },
+  "Smith A.|ACB|2022-2023": {
+    "offRapm": "-0.5",
+    "defRapm": "+0.3",
+    "netRapm": "-0.1"
+  },
   "Treier K.|LBA|2021-2022": {
     "offRapm": "+1.0",
     "defRapm": "-1.2",
@@ -13582,6 +14257,11 @@
   "Tarczewski K.|LBA|2021-2022": {
     "offRapm": "+1.4",
     "defRapm": "-1.5",
+    "netRapm": "-0.2"
+  },
+  "Hermannsson M.|ACB|2022-2023": {
+    "offRapm": "0.0",
+    "defRapm": "-0.1",
     "netRapm": "-0.2"
   },
   "Maldunas G.|EuroCup|2025-2026": {
@@ -14089,6 +14769,11 @@
     "defRapm": "+0.3",
     "netRapm": "-0.3"
   },
+  "Pozas P.|ACB|2022-2023": {
+    "offRapm": "+0.5",
+    "defRapm": "-0.8",
+    "netRapm": "-0.3"
+  },
   "Cooper S.|EuroCup|2024-2025": {
     "offRapm": "-0.6",
     "defRapm": "+0.3",
@@ -14125,6 +14810,11 @@
     "netRapm": "-0.3"
   },
   "Hankins Z.|ACB|2025-2026": {
+    "offRapm": "-1.0",
+    "defRapm": "+0.7",
+    "netRapm": "-0.3"
+  },
+  "Munoz A.|ACB|2022-2023": {
     "offRapm": "-1.0",
     "defRapm": "+0.7",
     "netRapm": "-0.3"
@@ -14252,6 +14942,11 @@
   "Edwards J.|ACB|2025-2026": {
     "offRapm": "+0.5",
     "defRapm": "-0.8",
+    "netRapm": "-0.3"
+  },
+  "Ventura A.|ACB|2022-2023": {
+    "offRapm": "+0.3",
+    "defRapm": "-0.7",
     "netRapm": "-0.3"
   },
   "Renfro N.|LBA|2025-2026": {
@@ -14417,6 +15112,11 @@
   "Benite V.|EuroCup|2022-2023": {
     "offRapm": "-0.8",
     "defRapm": "+0.4",
+    "netRapm": "-0.4"
+  },
+  "Bellas T.|ACB|2022-2023": {
+    "offRapm": "-1.4",
+    "defRapm": "+1.1",
     "netRapm": "-0.4"
   },
   "Brodziansky V.|EuroCup|2023-2024": {
@@ -14739,6 +15439,11 @@
     "defRapm": "-1.4",
     "netRapm": "-0.5"
   },
+  "Lima A.|ACB|2022-2023": {
+    "offRapm": "-0.4",
+    "defRapm": "0.0",
+    "netRapm": "-0.5"
+  },
   "Banks A.|LBA|2021-2022": {
     "offRapm": "0.0",
     "defRapm": "-0.5",
@@ -14839,6 +15544,11 @@
     "defRapm": "+0.2",
     "netRapm": "-0.5"
   },
+  "Pinder K.|ACB|2022-2023": {
+    "offRapm": "-0.8",
+    "defRapm": "+0.3",
+    "netRapm": "-0.5"
+  },
   "Vene S.|LBA|2021-2022": {
     "offRapm": "+0.8",
     "defRapm": "-1.3",
@@ -14914,6 +15624,11 @@
     "defRapm": "-0.3",
     "netRapm": "-0.5"
   },
+  "Perez D.|ACB|2022-2023": {
+    "offRapm": "+0.3",
+    "defRapm": "-0.8",
+    "netRapm": "-0.5"
+  },
   "Bolomboy J.|Euroleague|2022-2023": {
     "offRapm": "-0.5",
     "defRapm": "0.0",
@@ -14924,9 +15639,19 @@
     "defRapm": "+0.5",
     "netRapm": "-0.5"
   },
+  "Sylla A.|ACB|2022-2023": {
+    "offRapm": "-2.6",
+    "defRapm": "+2.1",
+    "netRapm": "-0.5"
+  },
   "Westermann L.|Euroleague|2020-2021": {
     "offRapm": "-0.1",
     "defRapm": "-0.4",
+    "netRapm": "-0.5"
+  },
+  "Diaz J.|ACB|2022-2023": {
+    "offRapm": "-1.1",
+    "defRapm": "+0.6",
     "netRapm": "-0.5"
   },
   "Brazdeikis I.|Euroleague|2025-2026": {
@@ -14942,6 +15667,11 @@
   "Coleman K.|BCL|2025-2026": {
     "offRapm": "-0.8",
     "defRapm": "+0.2",
+    "netRapm": "-0.5"
+  },
+  "Tsalmpouris G.|ACB|2022-2023": {
+    "offRapm": "-0.1",
+    "defRapm": "-0.5",
     "netRapm": "-0.5"
   },
   "Zubkov A.|Euroleague|2020-2021": {
@@ -15209,6 +15939,11 @@
     "defRapm": "-1.8",
     "netRapm": "-0.6"
   },
+  "Diaz A.|ACB|2022-2023": {
+    "offRapm": "-0.6",
+    "defRapm": "0.0",
+    "netRapm": "-0.6"
+  },
   "Ben Romdhane M.|BCL|2025-2026": {
     "offRapm": "-0.9",
     "defRapm": "+0.3",
@@ -15227,6 +15962,11 @@
   "Blossomgame J.|Euroleague|2023-2024": {
     "offRapm": "-0.5",
     "defRapm": "-0.2",
+    "netRapm": "-0.6"
+  },
+  "Shermadini G.|ACB|2022-2023": {
+    "offRapm": "+1.1",
+    "defRapm": "-1.7",
     "netRapm": "-0.6"
   },
   "Zizic A.|Euroleague|2020-2021": {
@@ -15279,6 +16019,11 @@
     "defRapm": "-0.3",
     "netRapm": "-0.6"
   },
+  "Rojas S.|ACB|2022-2023": {
+    "offRapm": "-1.0",
+    "defRapm": "+0.4",
+    "netRapm": "-0.6"
+  },
   "Briggs J.|EuroCup|2024-2025": {
     "offRapm": "+0.3",
     "defRapm": "-0.9",
@@ -15287,6 +16032,11 @@
   "Wisniewski A.|EuroCup|2025-2026": {
     "offRapm": "-1.3",
     "defRapm": "+0.7",
+    "netRapm": "-0.6"
+  },
+  "Hanzlik O.|ACB|2022-2023": {
+    "offRapm": "-0.9",
+    "defRapm": "+0.2",
     "netRapm": "-0.6"
   },
   "Alexander K.|Euroleague|2022-2023": {
@@ -15389,6 +16139,11 @@
     "defRapm": "-0.6",
     "netRapm": "-0.7"
   },
+  "Caicedo Sanchez M.|ACB|2022-2023": {
+    "offRapm": "-0.3",
+    "defRapm": "-0.4",
+    "netRapm": "-0.7"
+  },
   "Caupain T.|LBA|2022-2023": {
     "offRapm": "+0.5",
     "defRapm": "-1.2",
@@ -15427,6 +16182,11 @@
   "Strautins A.|LBA|2024-2025": {
     "offRapm": "-0.3",
     "defRapm": "-0.3",
+    "netRapm": "-0.7"
+  },
+  "Marinkovic V.|ACB|2022-2023": {
+    "offRapm": "+1.4",
+    "defRapm": "-2.1",
     "netRapm": "-0.7"
   },
   "Rogkavopoulos N.|EuroCup|2021-2022": {
@@ -15649,6 +16409,11 @@
     "defRapm": "+0.4",
     "netRapm": "-0.7"
   },
+  "Scrubb T.|ACB|2022-2023": {
+    "offRapm": "-0.6",
+    "defRapm": "-0.1",
+    "netRapm": "-0.7"
+  },
   "Voigtmann J.|Euroleague|2024-2025": {
     "offRapm": "+0.6",
     "defRapm": "-1.3",
@@ -15682,6 +16447,11 @@
   "Calathes N.|Euroleague|2025-2026": {
     "offRapm": "-1.1",
     "defRapm": "+0.3",
+    "netRapm": "-0.7"
+  },
+  "Salvo M.|ACB|2022-2023": {
+    "offRapm": "+0.8",
+    "defRapm": "-1.5",
     "netRapm": "-0.7"
   },
   "Gontikas K.|EuroCup|2025-2026": {
@@ -15727,6 +16497,11 @@
   "Petrusev F.|Euroleague|2025-2026": {
     "offRapm": "+0.8",
     "defRapm": "-1.5",
+    "netRapm": "-0.7"
+  },
+  "Paige M.|ACB|2022-2023": {
+    "offRapm": "-0.5",
+    "defRapm": "-0.2",
     "netRapm": "-0.7"
   },
   "Kullamae K.|ACB|2024-2025": {
@@ -15789,9 +16564,19 @@
     "defRapm": "-0.5",
     "netRapm": "-0.7"
   },
+  "Renfroe A.|ACB|2022-2023": {
+    "offRapm": "-0.6",
+    "defRapm": "-0.2",
+    "netRapm": "-0.7"
+  },
   "Giedraitis D.|Euroleague|2024-2025": {
     "offRapm": "-0.7",
     "defRapm": "0.0",
+    "netRapm": "-0.7"
+  },
+  "Diaz R.|ACB|2022-2023": {
+    "offRapm": "-0.2",
+    "defRapm": "-0.5",
     "netRapm": "-0.7"
   },
   "Lukosiunas K.|Euroleague|2020-2021": {
@@ -15799,9 +16584,19 @@
     "defRapm": "-0.3",
     "netRapm": "-0.7"
   },
+  "Quintela Salvador E.|ACB|2022-2023": {
+    "offRapm": "-0.8",
+    "defRapm": "+0.1",
+    "netRapm": "-0.7"
+  },
   "Moneke C.|ACB|2024-2025": {
     "offRapm": "+0.5",
     "defRapm": "-1.3",
+    "netRapm": "-0.7"
+  },
+  "Hakanson L.|ACB|2022-2023": {
+    "offRapm": "0.0",
+    "defRapm": "-0.8",
     "netRapm": "-0.7"
   },
   "Daye A.|EuroCup|2021-2022": {
@@ -15812,6 +16607,11 @@
   "Lundberg I.|Euroleague|2023-2024": {
     "offRapm": "-0.3",
     "defRapm": "-0.4",
+    "netRapm": "-0.7"
+  },
+  "Lee M.|ACB|2022-2023": {
+    "offRapm": "+0.1",
+    "defRapm": "-0.8",
     "netRapm": "-0.7"
   },
   "Kalaitzakis P.|Euroleague|2025-2026": {
@@ -15827,6 +16627,11 @@
   "Olisevicius O.|LBA|2025-2026": {
     "offRapm": "+0.6",
     "defRapm": "-1.3",
+    "netRapm": "-0.8"
+  },
+  "Randolph A.|ACB|2022-2023": {
+    "offRapm": "-0.3",
+    "defRapm": "-0.5",
     "netRapm": "-0.8"
   },
   "Dixson D.|LBA|2022-2023": {
@@ -16284,6 +17089,11 @@
     "defRapm": "-1.4",
     "netRapm": "-0.9"
   },
+  "Diaz C.|ACB|2022-2023": {
+    "offRapm": "-2.0",
+    "defRapm": "+1.1",
+    "netRapm": "-0.9"
+  },
   "McNeace J.|LBA|2021-2022": {
     "offRapm": "-0.2",
     "defRapm": "-0.6",
@@ -16379,6 +17189,11 @@
     "defRapm": "+0.8",
     "netRapm": "-0.9"
   },
+  "Carrera M.|ACB|2022-2023": {
+    "offRapm": "-0.3",
+    "defRapm": "-0.6",
+    "netRapm": "-0.9"
+  },
   "McCullum K.|EuroCup|2023-2024": {
     "offRapm": "-0.5",
     "defRapm": "-0.3",
@@ -16467,6 +17282,11 @@
   "Theodore J.|LBA|2021-2022": {
     "offRapm": "-1.0",
     "defRapm": "+0.1",
+    "netRapm": "-0.9"
+  },
+  "Ngouama M.|ACB|2022-2023": {
+    "offRapm": "-0.8",
+    "defRapm": "-0.1",
     "netRapm": "-0.9"
   },
   "Burns C.|EuroCup|2022-2023": {
@@ -16799,6 +17619,11 @@
     "defRapm": "+0.5",
     "netRapm": "-1.0"
   },
+  "Benite V.|ACB|2022-2023": {
+    "offRapm": "-0.4",
+    "defRapm": "-0.5",
+    "netRapm": "-1.0"
+  },
   "Radicevic N.|ACB|2024-2025": {
     "offRapm": "-0.1",
     "defRapm": "-0.9",
@@ -16827,6 +17652,11 @@
   "Abalde A.|Euroleague|2025-2026": {
     "offRapm": "+0.5",
     "defRapm": "-1.5",
+    "netRapm": "-1.0"
+  },
+  "Pargo J.|ACB|2022-2023": {
+    "offRapm": "-0.4",
+    "defRapm": "-0.6",
     "netRapm": "-1.0"
   },
   "Obst A.|Euroleague|2021-2022": {
@@ -17064,6 +17894,11 @@
     "defRapm": "0.0",
     "netRapm": "-1.1"
   },
+  "Diagne M.|ACB|2022-2023": {
+    "offRapm": "-1.8",
+    "defRapm": "+0.7",
+    "netRapm": "-1.1"
+  },
   "Danusevicius P.|EuroCup|2024-2025": {
     "offRapm": "-0.7",
     "defRapm": "-0.3",
@@ -17089,8 +17924,18 @@
     "defRapm": "-0.7",
     "netRapm": "-1.1"
   },
+  "Martinez S.|ACB|2022-2023": {
+    "offRapm": "-0.3",
+    "defRapm": "-0.8",
+    "netRapm": "-1.1"
+  },
   "Udom M.|LBA|2021-2022": {
     "offRapm": "-0.1",
+    "defRapm": "-0.9",
+    "netRapm": "-1.1"
+  },
+  "Lomazs R.|ACB|2022-2023": {
+    "offRapm": "-0.2",
     "defRapm": "-0.9",
     "netRapm": "-1.1"
   },
@@ -17129,6 +17974,11 @@
     "defRapm": "-0.4",
     "netRapm": "-1.1"
   },
+  "Klavzar U.|ACB|2022-2023": {
+    "offRapm": "-0.1",
+    "defRapm": "-1.0",
+    "netRapm": "-1.1"
+  },
   "Pushkov A.|Euroleague|2020-2021": {
     "offRapm": "-0.4",
     "defRapm": "-0.7",
@@ -17157,6 +18007,11 @@
   "Laquintana T.|LBA|2022-2023": {
     "offRapm": "-0.9",
     "defRapm": "-0.2",
+    "netRapm": "-1.1"
+  },
+  "Miletic D.|ACB|2022-2023": {
+    "offRapm": "-1.1",
+    "defRapm": "+0.1",
     "netRapm": "-1.1"
   },
   "Klepeisz T.|EuroCup|2021-2022": {
@@ -17372,6 +18227,11 @@
   "Owens J.|EuroCup|2020-2021": {
     "offRapm": "-0.9",
     "defRapm": "-0.3",
+    "netRapm": "-1.2"
+  },
+  "Sima Y.|ACB|2022-2023": {
+    "offRapm": "+1.1",
+    "defRapm": "-2.3",
     "netRapm": "-1.2"
   },
   "Forrester J.|EuroCup|2025-2026": {
@@ -17634,6 +18494,11 @@
     "defRapm": "-0.6",
     "netRapm": "-1.2"
   },
+  "Kraag Y.|ACB|2022-2023": {
+    "offRapm": "-0.5",
+    "defRapm": "-0.8",
+    "netRapm": "-1.2"
+  },
   "Diallo A.|Euroleague|2024-2025": {
     "offRapm": "-0.7",
     "defRapm": "-0.5",
@@ -17737,6 +18602,11 @@
   "Lombardi E.|LBA|2023-2024": {
     "offRapm": "-1.3",
     "defRapm": "0.0",
+    "netRapm": "-1.2"
+  },
+  "Tass M.|ACB|2022-2023": {
+    "offRapm": "-0.4",
+    "defRapm": "-0.8",
     "netRapm": "-1.2"
   },
   "Childs E.|LBA|2024-2025": {
@@ -17874,6 +18744,11 @@
     "defRapm": "-1.6",
     "netRapm": "-1.3"
   },
+  "Harper J.|ACB|2022-2023": {
+    "offRapm": "+0.4",
+    "defRapm": "-1.7",
+    "netRapm": "-1.3"
+  },
   "Leday Z.|Euroleague|2023-2024": {
     "offRapm": "+0.5",
     "defRapm": "-1.7",
@@ -17887,6 +18762,11 @@
   "Hruban V.|BCL|2025-2026": {
     "offRapm": "-1.0",
     "defRapm": "-0.3",
+    "netRapm": "-1.3"
+  },
+  "Claver V.|ACB|2022-2023": {
+    "offRapm": "-1.1",
+    "defRapm": "-0.2",
     "netRapm": "-1.3"
   },
   "Bentil B.|BCL|2025-2026": {
@@ -17992,6 +18872,11 @@
   "Jallow K.|EuroCup|2021-2022": {
     "offRapm": "-1.8",
     "defRapm": "+0.4",
+    "netRapm": "-1.3"
+  },
+  "Franch J.|ACB|2022-2023": {
+    "offRapm": "-1.5",
+    "defRapm": "+0.1",
     "netRapm": "-1.3"
   },
   "Mattisseck J.|Euroleague|2021-2022": {
@@ -18214,6 +19099,11 @@
     "defRapm": "-0.1",
     "netRapm": "-1.4"
   },
+  "Garcia D.|ACB|2022-2023": {
+    "offRapm": "-0.4",
+    "defRapm": "-0.9",
+    "netRapm": "-1.4"
+  },
   "Stewart C.|EuroCup|2025-2026": {
     "offRapm": "-0.8",
     "defRapm": "-0.6",
@@ -18302,6 +19192,11 @@
   "Papagiannis G.|Euroleague|2022-2023": {
     "offRapm": "-2.1",
     "defRapm": "+0.7",
+    "netRapm": "-1.4"
+  },
+  "Nnaji J.|ACB|2022-2023": {
+    "offRapm": "-0.1",
+    "defRapm": "-1.3",
     "netRapm": "-1.4"
   },
   "Dimitrijevic N.|EuroCup|2021-2022": {
@@ -18409,6 +19304,11 @@
     "defRapm": "-1.3",
     "netRapm": "-1.4"
   },
+  "Waczynski A.|ACB|2022-2023": {
+    "offRapm": "-0.5",
+    "defRapm": "-0.9",
+    "netRapm": "-1.4"
+  },
   "Mezzanotte A.|EuroCup|2021-2022": {
     "offRapm": "-1.0",
     "defRapm": "-0.5",
@@ -18494,6 +19394,11 @@
     "defRapm": "-0.9",
     "netRapm": "-1.4"
   },
+  "Bertans D.|ACB|2022-2023": {
+    "offRapm": "-0.7",
+    "defRapm": "-0.7",
+    "netRapm": "-1.5"
+  },
   "Cook K.|ACB|2025-2026": {
     "offRapm": "-0.1",
     "defRapm": "-1.4",
@@ -18557,6 +19462,11 @@
   "Hands J.|ACB|2025-2026": {
     "offRapm": "-0.4",
     "defRapm": "-1.1",
+    "netRapm": "-1.5"
+  },
+  "Ferrari F.|ACB|2022-2023": {
+    "offRapm": "-1.2",
+    "defRapm": "-0.3",
     "netRapm": "-1.5"
   },
   "Sant Roos H.|ACB|2024-2025": {
@@ -18654,6 +19564,11 @@
     "defRapm": "-2.1",
     "netRapm": "-1.5"
   },
+  "Tomas P.|ACB|2022-2023": {
+    "offRapm": "-0.2",
+    "defRapm": "-1.2",
+    "netRapm": "-1.5"
+  },
   "Diop K.|Euroleague|2025-2026": {
     "offRapm": "-0.1",
     "defRapm": "-1.4",
@@ -18702,6 +19617,11 @@
   "Rich O.|EuroCup|2021-2022": {
     "offRapm": "-0.8",
     "defRapm": "-0.7",
+    "netRapm": "-1.5"
+  },
+  "Bortolani G.|ACB|2022-2023": {
+    "offRapm": "0.0",
+    "defRapm": "-1.5",
     "netRapm": "-1.5"
   },
   "Odiase T.|EuroCup|2023-2024": {
@@ -18979,6 +19899,11 @@
     "defRapm": "-0.9",
     "netRapm": "-1.6"
   },
+  "Radoncic D.|ACB|2022-2023": {
+    "offRapm": "-1.2",
+    "defRapm": "-0.4",
+    "netRapm": "-1.6"
+  },
   "Tanoulis G.|EuroCup|2022-2023": {
     "offRapm": "-1.0",
     "defRapm": "-0.6",
@@ -19044,6 +19969,11 @@
     "defRapm": "-2.3",
     "netRapm": "-1.6"
   },
+  "Felicio C.|ACB|2022-2023": {
+    "offRapm": "-0.2",
+    "defRapm": "-1.4",
+    "netRapm": "-1.6"
+  },
   "Rodriguez S.|ACB|2023-2024": {
     "offRapm": "-0.4",
     "defRapm": "-1.2",
@@ -19104,6 +20034,11 @@
     "defRapm": "-2.0",
     "netRapm": "-1.6"
   },
+  "Robertson K.|ACB|2022-2023": {
+    "offRapm": "-0.1",
+    "defRapm": "-1.6",
+    "netRapm": "-1.6"
+  },
   "Boungou Colo N.|EuroCup|2021-2022": {
     "offRapm": "-0.3",
     "defRapm": "-1.4",
@@ -19137,6 +20072,11 @@
   "Taskiran E.|EuroCup|2022-2023": {
     "offRapm": "-0.3",
     "defRapm": "-1.3",
+    "netRapm": "-1.6"
+  },
+  "Alexander K.|ACB|2022-2023": {
+    "offRapm": "-0.6",
+    "defRapm": "-1.0",
     "netRapm": "-1.6"
   },
   "Taylor R.|LBA|2022-2023": {
@@ -19254,6 +20194,11 @@
     "defRapm": "-0.7",
     "netRapm": "-1.6"
   },
+  "Jessup J.|ACB|2022-2023": {
+    "offRapm": "-1.2",
+    "defRapm": "-0.5",
+    "netRapm": "-1.6"
+  },
   "Hollatz J.|Euroleague|2024-2025": {
     "offRapm": "0.0",
     "defRapm": "-1.6",
@@ -19324,6 +20269,11 @@
     "defRapm": "-0.4",
     "netRapm": "-1.7"
   },
+  "Nikolic D.|ACB|2022-2023": {
+    "offRapm": "-1.0",
+    "defRapm": "-0.7",
+    "netRapm": "-1.7"
+  },
   "Harris J.|LBA|2021-2022": {
     "offRapm": "-0.1",
     "defRapm": "-1.6",
@@ -19357,6 +20307,11 @@
   "Samaric L.|Euroleague|2024-2025": {
     "offRapm": "+0.8",
     "defRapm": "-2.5",
+    "netRapm": "-1.7"
+  },
+  "Trice T.|ACB|2022-2023": {
+    "offRapm": "+0.5",
+    "defRapm": "-2.2",
     "netRapm": "-1.7"
   },
   "Vinales K.|EuroCup|2020-2021": {
@@ -19429,6 +20384,11 @@
     "defRapm": "-2.1",
     "netRapm": "-1.7"
   },
+  "Momirov S.|ACB|2022-2023": {
+    "offRapm": "+0.4",
+    "defRapm": "-2.0",
+    "netRapm": "-1.7"
+  },
   "Redivo L.|LBA|2021-2022": {
     "offRapm": "+0.7",
     "defRapm": "-2.4",
@@ -19484,6 +20444,11 @@
     "defRapm": "-1.3",
     "netRapm": "-1.7"
   },
+  "Moore M.|ACB|2022-2023": {
+    "offRapm": "-1.2",
+    "defRapm": "-0.5",
+    "netRapm": "-1.7"
+  },
   "Jones D.|EuroCup|2024-2025": {
     "offRapm": "+0.4",
     "defRapm": "-2.1",
@@ -19497,6 +20462,11 @@
   "Maldunas G.|EuroCup|2021-2022": {
     "offRapm": "-2.0",
     "defRapm": "+0.2",
+    "netRapm": "-1.7"
+  },
+  "Mekowulu C.|ACB|2022-2023": {
+    "offRapm": "-1.0",
+    "defRapm": "-0.7",
     "netRapm": "-1.7"
   },
   "Lopez R.|EuroCup|2022-2023": {
@@ -19709,6 +20679,11 @@
     "defRapm": "-1.0",
     "netRapm": "-1.8"
   },
+  "Horton K.|ACB|2022-2023": {
+    "offRapm": "-2.2",
+    "defRapm": "+0.4",
+    "netRapm": "-1.8"
+  },
   "Tobey M.|Euroleague|2022-2023": {
     "offRapm": "+0.9",
     "defRapm": "-2.7",
@@ -19809,9 +20784,19 @@
     "defRapm": "-1.7",
     "netRapm": "-1.8"
   },
+  "Anderson J.|ACB|2022-2023": {
+    "offRapm": "-1.4",
+    "defRapm": "-0.4",
+    "netRapm": "-1.8"
+  },
   "Kuric K.|ACB|2025-2026": {
     "offRapm": "+0.8",
     "defRapm": "-2.6",
+    "netRapm": "-1.8"
+  },
+  "Kurucs R.|ACB|2022-2023": {
+    "offRapm": "-0.7",
+    "defRapm": "-1.1",
     "netRapm": "-1.8"
   },
   "Badzim R.|ACB|2023-2024": {
@@ -20054,6 +21039,11 @@
     "defRapm": "-0.6",
     "netRapm": "-1.9"
   },
+  "Sagnia M.|ACB|2022-2023": {
+    "offRapm": "+0.1",
+    "defRapm": "-2.0",
+    "netRapm": "-1.9"
+  },
   "Dorsey T.|Euroleague|2023-2024": {
     "offRapm": "+0.7",
     "defRapm": "-2.6",
@@ -20062,6 +21052,11 @@
   "Gist J.|Euroleague|2020-2021": {
     "offRapm": "-0.8",
     "defRapm": "-1.1",
+    "netRapm": "-1.9"
+  },
+  "Radicevic N.|ACB|2022-2023": {
+    "offRapm": "+0.1",
+    "defRapm": "-2.0",
     "netRapm": "-1.9"
   },
   "Fjellerup M.|ACB|2024-2025": {
@@ -20127,6 +21122,11 @@
   "Cappelletti A.|LBA|2023-2024": {
     "offRapm": "-0.5",
     "defRapm": "-1.5",
+    "netRapm": "-1.9"
+  },
+  "Pradilla J.|ACB|2022-2023": {
+    "offRapm": "-0.2",
+    "defRapm": "-1.8",
     "netRapm": "-1.9"
   },
   "Harris J.|LBA|2024-2025": {
@@ -20359,6 +21359,11 @@
     "defRapm": "-1.5",
     "netRapm": "-2.0"
   },
+  "Senglin J.|ACB|2022-2023": {
+    "offRapm": "+0.7",
+    "defRapm": "-2.6",
+    "netRapm": "-2.0"
+  },
   "Gabinski M.|EuroCup|2021-2022": {
     "offRapm": "-0.3",
     "defRapm": "-1.7",
@@ -20377,6 +21382,11 @@
   "Perry K.|Euroleague|2021-2022": {
     "offRapm": "-1.2",
     "defRapm": "-0.8",
+    "netRapm": "-2.0"
+  },
+  "Abalde A.|ACB|2022-2023": {
+    "offRapm": "-0.5",
+    "defRapm": "-1.4",
     "netRapm": "-2.0"
   },
   "Franke Y.|ACB|2023-2024": {
@@ -20499,6 +21509,11 @@
     "defRapm": "-1.4",
     "netRapm": "-2.0"
   },
+  "Garcia S.|ACB|2022-2023": {
+    "offRapm": "-1.1",
+    "defRapm": "-0.9",
+    "netRapm": "-2.0"
+  },
   "Osetkowski D.|Euroleague|2025-2026": {
     "offRapm": "-0.6",
     "defRapm": "-1.4",
@@ -20514,6 +21529,11 @@
     "defRapm": "-0.8",
     "netRapm": "-2.0"
   },
+  "Kljajic J.|ACB|2022-2023": {
+    "offRapm": "-1.2",
+    "defRapm": "-0.8",
+    "netRapm": "-2.0"
+  },
   "Reed W.|EuroCup|2021-2022": {
     "offRapm": "-0.9",
     "defRapm": "-1.2",
@@ -20522,6 +21542,11 @@
   "Zemaitis K.|EuroCup|2024-2025": {
     "offRapm": "-0.8",
     "defRapm": "-1.2",
+    "netRapm": "-2.0"
+  },
+  "Pasecniks A.|ACB|2022-2023": {
+    "offRapm": "-0.1",
+    "defRapm": "-1.9",
     "netRapm": "-2.0"
   },
   "Palmer J.|EuroCup|2022-2023": {
@@ -20597,6 +21622,11 @@
   "Hannah C.|LBA|2022-2023": {
     "offRapm": "+1.1",
     "defRapm": "-3.2",
+    "netRapm": "-2.1"
+  },
+  "Perez T.|ACB|2022-2023": {
+    "offRapm": "+0.8",
+    "defRapm": "-2.8",
     "netRapm": "-2.1"
   },
   "Radosevic L.|LBA|2025-2026": {
@@ -20924,6 +21954,11 @@
     "defRapm": "-1.1",
     "netRapm": "-2.1"
   },
+  "Valtonen E.|ACB|2022-2023": {
+    "offRapm": "-0.9",
+    "defRapm": "-1.2",
+    "netRapm": "-2.1"
+  },
   "Hommes D.|Euroleague|2024-2025": {
     "offRapm": "0.0",
     "defRapm": "-2.1",
@@ -20937,6 +21972,11 @@
   "Colom G.|EuroCup|2021-2022": {
     "offRapm": "-1.2",
     "defRapm": "-0.9",
+    "netRapm": "-2.1"
+  },
+  "Lukovic M.|ACB|2022-2023": {
+    "offRapm": "-1.2",
+    "defRapm": "-1.0",
     "netRapm": "-2.1"
   },
   "Lountzis M.|Euroleague|2023-2024": {
@@ -21049,6 +22089,11 @@
     "defRapm": "-1.7",
     "netRapm": "-2.2"
   },
+  "Sant Roos H.|ACB|2022-2023": {
+    "offRapm": "-1.7",
+    "defRapm": "-0.5",
+    "netRapm": "-2.2"
+  },
   "Washington I.|ACB|2025-2026": {
     "offRapm": "+0.7",
     "defRapm": "-2.9",
@@ -21144,6 +22189,11 @@
     "defRapm": "-0.7",
     "netRapm": "-2.2"
   },
+  "Ristic D.|ACB|2022-2023": {
+    "offRapm": "+0.7",
+    "defRapm": "-3.0",
+    "netRapm": "-2.2"
+  },
   "Andric M.|EuroCup|2021-2022": {
     "offRapm": "-1.2",
     "defRapm": "-1.0",
@@ -21152,6 +22202,11 @@
   "Grigonis M.|Euroleague|2022-2023": {
     "offRapm": "-0.8",
     "defRapm": "-1.4",
+    "netRapm": "-2.2"
+  },
+  "Diop I.|ACB|2022-2023": {
+    "offRapm": "+0.1",
+    "defRapm": "-2.4",
     "netRapm": "-2.2"
   },
   "Lighty D.|Euroleague|2022-2023": {
@@ -21182,6 +22237,11 @@
   "Hundt B.|BCL|2025-2026": {
     "offRapm": "-0.2",
     "defRapm": "-2.1",
+    "netRapm": "-2.2"
+  },
+  "Costa L.|ACB|2022-2023": {
+    "offRapm": "-0.6",
+    "defRapm": "-1.6",
     "netRapm": "-2.2"
   },
   "Gagic D.|EuroCup|2021-2022": {
@@ -21222,6 +22282,11 @@
   "Reuvers N.|EuroCup|2024-2025": {
     "offRapm": "-0.7",
     "defRapm": "-1.6",
+    "netRapm": "-2.3"
+  },
+  "Enoch S.|ACB|2022-2023": {
+    "offRapm": "+0.3",
+    "defRapm": "-2.6",
     "netRapm": "-2.3"
   },
   "Tomic A.|EuroCup|2020-2021": {
@@ -22034,6 +23099,11 @@
     "defRapm": "-2.7",
     "netRapm": "-2.5"
   },
+  "Davis J.|ACB|2022-2023": {
+    "offRapm": "-1.3",
+    "defRapm": "-1.2",
+    "netRapm": "-2.5"
+  },
   "King V.|BCL|2025-2026": {
     "offRapm": "-0.8",
     "defRapm": "-1.8",
@@ -22122,6 +23192,11 @@
   "Printezis G.|Euroleague|2021-2022": {
     "offRapm": "+0.3",
     "defRapm": "-2.8",
+    "netRapm": "-2.6"
+  },
+  "Alonso F.|ACB|2022-2023": {
+    "offRapm": "-1.2",
+    "defRapm": "-1.4",
     "netRapm": "-2.6"
   },
   "Bassas F.|EuroCup|2025-2026": {
@@ -22264,6 +23339,11 @@
     "defRapm": "-0.8",
     "netRapm": "-2.6"
   },
+  "Llull S.|ACB|2022-2023": {
+    "offRapm": "+1.0",
+    "defRapm": "-3.7",
+    "netRapm": "-2.6"
+  },
   "Nnaji J.|Euroleague|2022-2023": {
     "offRapm": "-0.7",
     "defRapm": "-1.9",
@@ -22299,6 +23379,11 @@
     "defRapm": "-3.5",
     "netRapm": "-2.6"
   },
+  "Heidegger M.|ACB|2022-2023": {
+    "offRapm": "+0.6",
+    "defRapm": "-3.2",
+    "netRapm": "-2.6"
+  },
   "Jovic S.|Euroleague|2025-2026": {
     "offRapm": "-0.5",
     "defRapm": "-2.1",
@@ -22307,6 +23392,11 @@
   "Spissu M.|Euroleague|2021-2022": {
     "offRapm": "-1.6",
     "defRapm": "-1.0",
+    "netRapm": "-2.6"
+  },
+  "Suarez A.|ACB|2022-2023": {
+    "offRapm": "-1.8",
+    "defRapm": "-0.9",
     "netRapm": "-2.6"
   },
   "Uskokovic A.|Euroleague|2020-2021": {
@@ -22374,6 +23464,11 @@
     "defRapm": "-1.8",
     "netRapm": "-2.6"
   },
+  "Samar M.|ACB|2022-2023": {
+    "offRapm": "-2.3",
+    "defRapm": "-0.4",
+    "netRapm": "-2.7"
+  },
   "Heidegger M.|EuroCup|2024-2025": {
     "offRapm": "-0.8",
     "defRapm": "-1.9",
@@ -22434,6 +23529,11 @@
     "defRapm": "-2.2",
     "netRapm": "-2.7"
   },
+  "Sulejmanovic E.|ACB|2022-2023": {
+    "offRapm": "-1.2",
+    "defRapm": "-1.5",
+    "netRapm": "-2.7"
+  },
   "Gray R.|Euroleague|2021-2022": {
     "offRapm": "-0.6",
     "defRapm": "-2.1",
@@ -22445,6 +23545,11 @@
     "netRapm": "-2.7"
   },
   "Torresani D.|LBA|2025-2026": {
+    "offRapm": "-1.6",
+    "defRapm": "-1.1",
+    "netRapm": "-2.7"
+  },
+  "Garino P.|ACB|2022-2023": {
     "offRapm": "-1.6",
     "defRapm": "-1.1",
     "netRapm": "-2.7"
@@ -22594,6 +23699,11 @@
     "defRapm": "-2.1",
     "netRapm": "-2.8"
   },
+  "Van Rossom S.|ACB|2022-2023": {
+    "offRapm": "-1.2",
+    "defRapm": "-1.6",
+    "netRapm": "-2.8"
+  },
   "Brown M.|LBA|2023-2024": {
     "offRapm": "-1.2",
     "defRapm": "-1.6",
@@ -22634,6 +23744,11 @@
     "defRapm": "-1.4",
     "netRapm": "-2.8"
   },
+  "Luther R.|ACB|2022-2023": {
+    "offRapm": "-2.0",
+    "defRapm": "-0.7",
+    "netRapm": "-2.8"
+  },
   "Maric M.|EuroCup|2020-2021": {
     "offRapm": "-1.4",
     "defRapm": "-1.4",
@@ -22657,6 +23772,11 @@
   "Radosevic L.|Euroleague|2021-2022": {
     "offRapm": "-1.0",
     "defRapm": "-1.8",
+    "netRapm": "-2.8"
+  },
+  "Oriola P.|ACB|2022-2023": {
+    "offRapm": "-1.1",
+    "defRapm": "-1.7",
     "netRapm": "-2.8"
   },
   "Ulanovas E.|Euroleague|2025-2026": {
@@ -22699,6 +23819,11 @@
     "defRapm": "-0.7",
     "netRapm": "-2.8"
   },
+  "Johnson B.|ACB|2022-2023": {
+    "offRapm": "-0.8",
+    "defRapm": "-2.0",
+    "netRapm": "-2.8"
+  },
   "Toro A.|BCL|2025-2026": {
     "offRapm": "-1.8",
     "defRapm": "-1.0",
@@ -22722,6 +23847,11 @@
   "Tomic A.|ACB|2025-2026": {
     "offRapm": "-0.4",
     "defRapm": "-2.4",
+    "netRapm": "-2.8"
+  },
+  "Nenadic N.|ACB|2022-2023": {
+    "offRapm": "-2.2",
+    "defRapm": "-0.6",
     "netRapm": "-2.8"
   },
   "Birsen M.|Euroleague|2022-2023": {
@@ -22789,6 +23919,11 @@
     "defRapm": "-1.2",
     "netRapm": "-2.9"
   },
+  "Mara A.|ACB|2022-2023": {
+    "offRapm": "+0.2",
+    "defRapm": "-3.1",
+    "netRapm": "-2.9"
+  },
   "Sokolowski M.|LBA|2022-2023": {
     "offRapm": "-1.5",
     "defRapm": "-1.4",
@@ -22819,6 +23954,11 @@
     "defRapm": "-2.2",
     "netRapm": "-2.9"
   },
+  "Macoha R.|ACB|2022-2023": {
+    "offRapm": "-1.2",
+    "defRapm": "-1.7",
+    "netRapm": "-2.9"
+  },
   "Visconti R.|ACB|2024-2025": {
     "offRapm": "-0.5",
     "defRapm": "-2.4",
@@ -22832,6 +23972,11 @@
   "Mannion N.|EuroCup|2021-2022": {
     "offRapm": "-1.2",
     "defRapm": "-1.7",
+    "netRapm": "-2.9"
+  },
+  "Raieste S.|ACB|2022-2023": {
+    "offRapm": "-0.2",
+    "defRapm": "-2.7",
     "netRapm": "-2.9"
   },
   "Camara G.|LBA|2021-2022": {
@@ -22964,6 +24109,11 @@
     "defRapm": "-3.8",
     "netRapm": "-2.9"
   },
+  "Diez D.|ACB|2022-2023": {
+    "offRapm": "+1.4",
+    "defRapm": "-4.3",
+    "netRapm": "-2.9"
+  },
   "Ponkrashov A.|Euroleague|2020-2021": {
     "offRapm": "-1.3",
     "defRapm": "-1.6",
@@ -22977,6 +24127,11 @@
   "Sedekerskis T.|Euroleague|2025-2026": {
     "offRapm": "-1.0",
     "defRapm": "-1.9",
+    "netRapm": "-2.9"
+  },
+  "Dubljevic B.|ACB|2022-2023": {
+    "offRapm": "+0.1",
+    "defRapm": "-3.0",
     "netRapm": "-2.9"
   },
   "Bolomboy J.|Euroleague|2025-2026": {
@@ -23014,6 +24169,11 @@
     "defRapm": "-1.8",
     "netRapm": "-3.0"
   },
+  "Eyenga C.|ACB|2022-2023": {
+    "offRapm": "-0.8",
+    "defRapm": "-2.1",
+    "netRapm": "-3.0"
+  },
   "Williams T.|Euroleague|2024-2025": {
     "offRapm": "-0.1",
     "defRapm": "-2.8",
@@ -23034,6 +24194,11 @@
     "defRapm": "-1.7",
     "netRapm": "-3.0"
   },
+  "Ndiaye E.|ACB|2022-2023": {
+    "offRapm": "-1.0",
+    "defRapm": "-2.0",
+    "netRapm": "-3.0"
+  },
   "Casarin D.|LBA|2022-2023": {
     "offRapm": "-1.4",
     "defRapm": "-1.5",
@@ -23052,6 +24217,11 @@
   "Landesberg S.|ACB|2023-2024": {
     "offRapm": "-1.2",
     "defRapm": "-1.8",
+    "netRapm": "-3.0"
+  },
+  "Ndoye Y.|ACB|2022-2023": {
+    "offRapm": "-1.3",
+    "defRapm": "-1.6",
     "netRapm": "-3.0"
   },
   "Golebiowski D.|EuroCup|2023-2024": {
@@ -23077,6 +24247,11 @@
   "Jones S.|EuroCup|2023-2024": {
     "offRapm": "-1.2",
     "defRapm": "-1.7",
+    "netRapm": "-3.0"
+  },
+  "Prkacin R.|ACB|2022-2023": {
+    "offRapm": "-2.2",
+    "defRapm": "-0.8",
     "netRapm": "-3.0"
   },
   "Reuvers N.|ACB|2023-2024": {
@@ -23109,6 +24284,11 @@
     "defRapm": "0.0",
     "netRapm": "-3.0"
   },
+  "Brajkovic L.|ACB|2022-2023": {
+    "offRapm": "-2.7",
+    "defRapm": "-0.3",
+    "netRapm": "-3.0"
+  },
   "Bramos M.|EuroCup|2021-2022": {
     "offRapm": "-0.3",
     "defRapm": "-2.7",
@@ -23137,6 +24317,11 @@
   "Francisco S.|Euroleague|2023-2024": {
     "offRapm": "+0.1",
     "defRapm": "-3.1",
+    "netRapm": "-3.0"
+  },
+  "Gray J.|ACB|2022-2023": {
+    "offRapm": "-0.5",
+    "defRapm": "-2.6",
     "netRapm": "-3.0"
   },
   "Radosevic L.|Euroleague|2020-2021": {
@@ -23257,6 +24442,11 @@
   "Ziv I.|ACB|2023-2024": {
     "offRapm": "-1.3",
     "defRapm": "-1.8",
+    "netRapm": "-3.1"
+  },
+  "Ehigiator O.|ACB|2022-2023": {
+    "offRapm": "-1.5",
+    "defRapm": "-1.6",
     "netRapm": "-3.1"
   },
   "Jones J.|LBA|2021-2022": {
@@ -23729,6 +24919,11 @@
     "defRapm": "-1.8",
     "netRapm": "-3.3"
   },
+  "Lewis M.|ACB|2022-2023": {
+    "offRapm": "-2.2",
+    "defRapm": "-1.1",
+    "netRapm": "-3.3"
+  },
   "Burns C.|LBA|2025-2026": {
     "offRapm": "-1.4",
     "defRapm": "-1.9",
@@ -23752,6 +24947,11 @@
   "Van Vliet A.|EuroCup|2024-2025": {
     "offRapm": "-1.0",
     "defRapm": "-2.4",
+    "netRapm": "-3.4"
+  },
+  "Steinbergs M.|ACB|2022-2023": {
+    "offRapm": "-2.6",
+    "defRapm": "-0.7",
     "netRapm": "-3.4"
   },
   "Candussi F.|LBA|2022-2023": {
@@ -24104,6 +25304,11 @@
     "defRapm": "-3.2",
     "netRapm": "-3.6"
   },
+  "Tobey M.|ACB|2022-2023": {
+    "offRapm": "-1.2",
+    "defRapm": "-2.4",
+    "netRapm": "-3.6"
+  },
   "Bickauskis D.|EuroCup|2024-2025": {
     "offRapm": "-1.3",
     "defRapm": "-2.3",
@@ -24284,6 +25489,11 @@
     "defRapm": "-2.6",
     "netRapm": "-3.8"
   },
+  "Wright C.|ACB|2022-2023": {
+    "offRapm": "-1.3",
+    "defRapm": "-2.5",
+    "netRapm": "-3.8"
+  },
   "Flaccadori D.|EuroCup|2022-2023": {
     "offRapm": "-1.8",
     "defRapm": "-1.9",
@@ -24344,6 +25554,11 @@
     "defRapm": "-2.3",
     "netRapm": "-3.8"
   },
+  "Hill J.|ACB|2022-2023": {
+    "offRapm": "-2.9",
+    "defRapm": "-0.9",
+    "netRapm": "-3.8"
+  },
   "Gudaitis A.|LBA|2021-2022": {
     "offRapm": "-1.5",
     "defRapm": "-2.3",
@@ -24352,6 +25567,11 @@
   "Lo M.|Euroleague|2024-2025": {
     "offRapm": "-0.7",
     "defRapm": "-3.1",
+    "netRapm": "-3.8"
+  },
+  "Kromah L.|ACB|2022-2023": {
+    "offRapm": "-2.3",
+    "defRapm": "-1.5",
     "netRapm": "-3.8"
   },
   "Pinkins K.|LBA|2024-2025": {
@@ -24619,6 +25839,11 @@
     "defRapm": "-3.2",
     "netRapm": "-4.0"
   },
+  "Fjellerup M.|ACB|2022-2023": {
+    "offRapm": "-2.0",
+    "defRapm": "-2.1",
+    "netRapm": "-4.0"
+  },
   "Gonzalez H.|Euroleague|2024-2025": {
     "offRapm": "-1.6",
     "defRapm": "-2.5",
@@ -24627,6 +25852,11 @@
   "Baker R.|Euroleague|2024-2025": {
     "offRapm": "-0.4",
     "defRapm": "-3.7",
+    "netRapm": "-4.1"
+  },
+  "Evans S.|ACB|2022-2023": {
+    "offRapm": "-1.0",
+    "defRapm": "-3.0",
     "netRapm": "-4.1"
   },
   "Bagayoko B.|ACB|2025-2026": {
@@ -24682,6 +25912,11 @@
   "Brodziansky V.|ACB|2024-2025": {
     "offRapm": "-1.8",
     "defRapm": "-2.3",
+    "netRapm": "-4.1"
+  },
+  "Guy K.|ACB|2022-2023": {
+    "offRapm": "-0.1",
+    "defRapm": "-4.0",
     "netRapm": "-4.1"
   },
   "Jones P.|EuroCup|2020-2021": {
@@ -24824,9 +26059,19 @@
     "defRapm": "-4.2",
     "netRapm": "-4.2"
   },
+  "Figueras P.|ACB|2022-2023": {
+    "offRapm": "-1.7",
+    "defRapm": "-2.5",
+    "netRapm": "-4.2"
+  },
   "Richard P.|EuroCup|2025-2026": {
     "offRapm": "-0.2",
     "defRapm": "-4.0",
+    "netRapm": "-4.2"
+  },
+  "Rodriguez S.|ACB|2022-2023": {
+    "offRapm": "+0.5",
+    "defRapm": "-4.7",
     "netRapm": "-4.2"
   },
   "Kaselakis L.|BCL|2025-2026": {
@@ -24924,6 +26169,11 @@
     "defRapm": "-2.1",
     "netRapm": "-4.3"
   },
+  "Vila R.|ACB|2022-2023": {
+    "offRapm": "-1.7",
+    "defRapm": "-2.6",
+    "netRapm": "-4.3"
+  },
   "Omoruyi E.|Euroleague|2025-2026": {
     "offRapm": "+0.2",
     "defRapm": "-4.5",
@@ -24972,6 +26222,11 @@
   "Terry E.|LBA|2022-2023": {
     "offRapm": "-2.0",
     "defRapm": "-2.4",
+    "netRapm": "-4.4"
+  },
+  "Almazan P.|ACB|2022-2023": {
+    "offRapm": "-0.9",
+    "defRapm": "-3.5",
     "netRapm": "-4.4"
   },
   "Granger J.|Euroleague|2021-2022": {
@@ -25219,6 +26474,11 @@
     "defRapm": "-3.0",
     "netRapm": "-4.7"
   },
+  "Baez E.|ACB|2022-2023": {
+    "offRapm": "-3.6",
+    "defRapm": "-1.1",
+    "netRapm": "-4.7"
+  },
   "Fernando B.|ACB|2024-2025": {
     "offRapm": "-1.9",
     "defRapm": "-2.8",
@@ -25252,6 +26512,11 @@
   "Eads J.|BCL|2025-2026": {
     "offRapm": "-1.6",
     "defRapm": "-3.2",
+    "netRapm": "-4.8"
+  },
+  "Ali P.|ACB|2022-2023": {
+    "offRapm": "-0.9",
+    "defRapm": "-3.9",
     "netRapm": "-4.8"
   },
   "Cline T.|EuroCup|2020-2021": {
@@ -25307,6 +26572,11 @@
   "Wetzell Y.|Euroleague|2022-2023": {
     "offRapm": "-2.1",
     "defRapm": "-2.7",
+    "netRapm": "-4.8"
+  },
+  "Bropleh T.|ACB|2022-2023": {
+    "offRapm": "-2.6",
+    "defRapm": "-2.2",
     "netRapm": "-4.8"
   },
   "Kesteloot V.|EuroCup|2020-2021": {
@@ -25382,6 +26652,11 @@
   "Tessitori A.|LBA|2024-2025": {
     "offRapm": "-1.5",
     "defRapm": "-3.5",
+    "netRapm": "-5.0"
+  },
+  "Tanaskovic N.|ACB|2022-2023": {
+    "offRapm": "-1.4",
+    "defRapm": "-3.6",
     "netRapm": "-5.0"
   },
   "Brooks J.|EuroCup|2023-2024": {
@@ -25494,6 +26769,16 @@
     "defRapm": "-3.4",
     "netRapm": "-5.2"
   },
+  "Hannah C.|ACB|2022-2023": {
+    "offRapm": "-0.6",
+    "defRapm": "-4.5",
+    "netRapm": "-5.2"
+  },
+  "Walker D.|ACB|2022-2023": {
+    "offRapm": "-1.0",
+    "defRapm": "-4.1",
+    "netRapm": "-5.2"
+  },
   "Lacey T.|LBA|2024-2025": {
     "offRapm": "-1.8",
     "defRapm": "-3.4",
@@ -25576,6 +26861,11 @@
   },
   "Barreiro J.|ACB|2025-2026": {
     "offRapm": "-1.9",
+    "defRapm": "-3.4",
+    "netRapm": "-5.4"
+  },
+  "Okouo V.|ACB|2022-2023": {
+    "offRapm": "-2.0",
     "defRapm": "-3.4",
     "netRapm": "-5.4"
   },
@@ -25754,6 +27044,16 @@
     "defRapm": "-5.0",
     "netRapm": "-6.1"
   },
+  "Kyser M.|ACB|2022-2023": {
+    "offRapm": "-1.8",
+    "defRapm": "-4.3",
+    "netRapm": "-6.1"
+  },
+  "Harding J.|ACB|2022-2023": {
+    "offRapm": "-1.0",
+    "defRapm": "-5.1",
+    "netRapm": "-6.1"
+  },
   "Biligha P.|LBA|2022-2023": {
     "offRapm": "-1.9",
     "defRapm": "-4.3",
@@ -25787,6 +27087,11 @@
   "Lazarevic S.|ACB|2025-2026": {
     "offRapm": "-3.0",
     "defRapm": "-3.4",
+    "netRapm": "-6.4"
+  },
+  "Caroline J.|ACB|2022-2023": {
+    "offRapm": "-1.0",
+    "defRapm": "-5.4",
     "netRapm": "-6.4"
   },
   "Jones M.|ACB|2024-2025": {
@@ -25848,6 +27153,11 @@
     "offRapm": "-3.3",
     "defRapm": "-3.7",
     "netRapm": "-7.0"
+  },
+  "Garcia M.|ACB|2022-2023": {
+    "offRapm": "-3.1",
+    "defRapm": "-4.0",
+    "netRapm": "-7.1"
   },
   "Egbunu J.|Euroleague|2023-2024": {
     "offRapm": "-2.2",
