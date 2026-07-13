@@ -805,7 +805,8 @@ async function scrapePlayerStats(playerSlug, context = {}) {
     const mainPageCareer = stats.map(s => {
       return {
         season: s.season || context.season || '2025-2026',
-        team: s.team || context.teamName || '',
+        // Prefer context.teamName if s.team is an abbreviation (length <= 4)
+        team: (s.team && s.team.length > 4) ? s.team : (context.teamName || s.team || ''),
         competition: s.competition || '',
         stats: s
       };

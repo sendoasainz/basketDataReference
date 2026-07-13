@@ -8,6 +8,7 @@
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
+const fs = require('fs');
 const scraper = require('./scraper');
 const scraperHackastat = require('./scraper-hackastat');
 const statsEngine = require('./stats-engine');
@@ -132,9 +133,9 @@ app.get('/api/league-averages', (req, res) => {
     );
 
     const averages = {
-      Guard: { pts: 0, reb: 0, ast: 0, stl: 0, blk: 0, count: 0 },
-      Forward: { pts: 0, reb: 0, ast: 0, stl: 0, blk: 0, count: 0 },
-      Center: { pts: 0, reb: 0, ast: 0, stl: 0, blk: 0, count: 0 }
+      Guard: { pts: 0, reb: 0, ast: 0, stl: 0, blk: 0, eval: 0, count: 0 },
+      Forward: { pts: 0, reb: 0, ast: 0, stl: 0, blk: 0, eval: 0, count: 0 },
+      Center: { pts: 0, reb: 0, ast: 0, stl: 0, blk: 0, eval: 0, count: 0 }
     };
 
     for (const p of leaguePlayers) {
@@ -151,6 +152,7 @@ app.get('/api/league-averages', (req, res) => {
         averages[pos].ast += s.ast || 0;
         averages[pos].stl += s.stl || 0;
         averages[pos].blk += s.blk || 0;
+        averages[pos].eval += s.eval || 0;
         averages[pos].count += 1;
       }
     }
@@ -164,6 +166,7 @@ app.get('/api/league-averages', (req, res) => {
         averages[pos].ast = Number((averages[pos].ast / cnt).toFixed(1));
         averages[pos].stl = Number((averages[pos].stl / cnt).toFixed(1));
         averages[pos].blk = Number((averages[pos].blk / cnt).toFixed(1));
+        averages[pos].eval = Number((averages[pos].eval / cnt).toFixed(1));
       }
       delete averages[pos].count;
     }
