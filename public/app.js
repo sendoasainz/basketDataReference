@@ -221,7 +221,7 @@ function cacheDom() {
   dom.compareRadarLegend = $('compare-radar-legend');
   dom.compareRadarCanvas = $('compare-radar-canvas');
   dom.compareRadarTooltip = $('compare-radar-tooltip');
-  dom.compareTableContainer = $('comparison-table-container');
+  dom.compareTableContainer = $('compare-table-container');
 }
 
 // ─── Init ───────────────────────────────────────────────────
@@ -2920,13 +2920,13 @@ function renderComparisonResults() {
   }
   
   // Render side-by-side table
-  renderComparisonTable(activePlayers);
+  renderMultiComparisonTable(activePlayers);
   
   // Render radar chart
   renderCompareRadarChart(activePlayers);
 }
 
-function renderComparisonTable(activePlayers) {
+function renderMultiComparisonTable(activePlayers) {
   if (!dom.compareTableContainer) return;
   
   const isHeadToHead = activePlayers.length === 2;
