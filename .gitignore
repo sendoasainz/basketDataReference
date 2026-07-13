@@ -1,5 +1,5 @@
 node_modules/
-data/
+# data/ (Permitido para tener backup de los JSON)
 chrome/
 scratch/
 .env
