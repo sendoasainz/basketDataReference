@@ -593,12 +593,12 @@ async function scrapeFullLeague(leagueSlug, season = '2025-2026') {
   }
 
   // Remove old data for this league in this specific season, keep others
-  const otherLeaguePlayers = existingPlayers.filter(p => p.leagueSlug !== leagueSlug);
-  const mergedPlayers = [...otherLeaguePlayers, ...players];
+  // DANGEROUS: This was overwriting be-basketball data with worse HackAStat data
+  // const otherLeaguePlayers = existingPlayers.filter(p => p.leagueSlug !== leagueSlug);
+  // const mergedPlayers = [...otherLeaguePlayers, ...players];
+  // mainScraper.saveDatabase(mergedPlayers, season);
 
-  mainScraper.saveDatabase(mergedPlayers, season);
-
-  console.log(`[HackAStat] ═══ Scrape complete: ${players.length} players ═══`);
+  console.log(`[HackAStat] 🏀 Scrape complete: ${players.length} players 🏀`);
   return players;
 }
 
