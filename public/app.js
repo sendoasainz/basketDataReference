@@ -1082,26 +1082,26 @@ function drawChartTornado(contentEl) {
     const leftBarWidth = isPositive ? 0 : widthPct;
     const rightBarWidth = isPositive ? widthPct : 0;
     
-    const leftText = !isPositive ? `\${d.playerValues[i].toFixed(1)} <span style="font-size:0.7rem; color:var(--text-muted)">vs \${d.avgValues[i].toFixed(1)}</span>` : '';
-    const rightText = isPositive ? `<span style="font-size:0.7rem; color:var(--text-muted)">\${d.avgValues[i].toFixed(1)} vs</span> \${d.playerValues[i].toFixed(1)}` : '';
+    const leftText = !isPositive ? `${d.playerValues[i].toFixed(1)} <span style="font-size:0.7rem; color:var(--text-muted)">vs ${d.avgValues[i].toFixed(1)}</span>` : '';
+    const rightText = isPositive ? `<span style="font-size:0.7rem; color:var(--text-muted)">${d.avgValues[i].toFixed(1)} vs</span> ${d.playerValues[i].toFixed(1)}` : '';
 
     html += `
       <div style="display: flex; align-items: center; width: 100%; height: 24px; position: relative;">
         <!-- Left side (Negative) -->
         <div style="flex: 1; display: flex; justify-content: flex-end; align-items: center; padding-right: 0.5rem;">
-          <span style="font-size: 0.8rem; margin-right: 0.5rem; font-family: monospace;">\${leftText}</span>
-          <div style="height: 16px; background: \${!isPositive ? color : 'transparent'}; width: \${leftBarWidth}%; border-radius: 4px 0 0 4px; transition: width 0.4s ease;"></div>
+          <span style="font-size: 0.8rem; margin-right: 0.5rem; font-family: monospace;">${leftText}</span>
+          <div style="height: 16px; background: ${!isPositive ? color : 'transparent'}; width: ${leftBarWidth}%; border-radius: 4px 0 0 4px; transition: width 0.4s ease;"></div>
         </div>
         
         <!-- Center Label -->
         <div style="width: 40px; text-align: center; font-weight: 600; font-size: 0.8rem; z-index: 1;">
-          \${d.labels[i]}
+          ${d.labels[i]}
         </div>
         
         <!-- Right side (Positive) -->
         <div style="flex: 1; display: flex; justify-content: flex-start; align-items: center; padding-left: 0.5rem;">
-          <div style="height: 16px; background: \${isPositive ? color : 'transparent'}; width: \${rightBarWidth}%; border-radius: 0 4px 4px 0; transition: width 0.4s ease;"></div>
-          <span style="font-size: 0.8rem; margin-left: 0.5rem; font-family: monospace;">\${rightText}</span>
+          <div style="height: 16px; background: ${isPositive ? color : 'transparent'}; width: ${rightBarWidth}%; border-radius: 0 4px 4px 0; transition: width 0.4s ease;"></div>
+          <span style="font-size: 0.8rem; margin-left: 0.5rem; font-family: monospace;">${rightText}</span>
         </div>
         
         <!-- Center line -->
